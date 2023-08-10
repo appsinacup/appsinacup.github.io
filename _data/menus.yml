@@ -1,0 +1,11 @@
+- title: home
+  url: /
+  external: false
+
+- title: posts
+  url: /posts/
+  external: false
+
+- title: about
+  url: /about/
+  external: false
