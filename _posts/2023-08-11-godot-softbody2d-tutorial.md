@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Godot SoftBody2D Tutorial
+tag: godot-softbody2d
 ---
 
 You can find Godot SoftBody2D on [GitHub](https://github.com/appsinacup/godot-softbody2d) or [Godot Asset Library](https://godotengine.org/asset-library/asset/1621).

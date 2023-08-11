@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Godot Box2D Tutorial
+tag: godot-box2d
 ---
 
 You can find Godot Box2D on [GitHub](https://github.com/appsinacup/godot-box2d) or [Godot Asset Library](https://godotengine.org/asset-library/asset/2007).
