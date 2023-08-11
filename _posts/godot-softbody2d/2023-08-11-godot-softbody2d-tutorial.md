@@ -5,9 +5,11 @@ title: Godot SoftBody2D Tutorial
 
 You can find Godot SoftBody2D on [GitHub](https://github.com/appsinacup/godot-softbody2d) or [Godot Asset Library](https://godotengine.org/asset-library/asset/1621).
 
-## How to install the SoftBody2D addon
+<iframe width="560" height="315" src="https://www.youtube.com/embed/By_AfqLxAKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-To install the SoftBody2D addon in Godot Editor:
+## How to install the SoftBody2D plugin
+
+To install the SoftBody2D plugin in Godot Editor:
 
 1. Open the AssetLib tab.
 2. Search for SoftBody2D and click on the plugin.
