@@ -6,6 +6,10 @@
   url: /posts/
   external: false
 
+- title: godot-softbody
+  url: /godot-softbody/
+  external: false
+
 - title: about
   url: /about/
   external: false

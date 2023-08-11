@@ -6,7 +6,7 @@ excerpt: about apps in a cup (of coffee)
 comments: false
 ---
 
-Hey Hey! I'm Dragos Daian. I am working on plugins for Godot at the moment.
+Hey Hey! My name is Dragos Daian and I'm currently developing plugins for Godot.
 
 
 - You can find Godot Box2D on [GitHub](https://github.com/appsinacup/godot-box2d) or [Godot Asset Library](https://godotengine.org/asset-library/asset/2007).
