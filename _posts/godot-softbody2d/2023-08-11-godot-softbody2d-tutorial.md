@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Python Notes from Intro to Machine Learning
-description: Godot SoftBody2D Tutorial - Plugin that adds deformable 2D soft body.
+title: Godot SoftBody2D Tutorial
 ---
 
 You can find Godot Box2D on [GitHub](https://github.com/appsinacup/godot-box2d) or [Godot Asset Library](https://godotengine.org/asset-library/asset/2007).
