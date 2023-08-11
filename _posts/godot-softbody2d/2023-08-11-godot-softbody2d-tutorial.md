@@ -3,7 +3,7 @@ layout: post
 title: Godot SoftBody2D Tutorial
 ---
 
-You can find Godot Box2D on [GitHub](https://github.com/appsinacup/godot-box2d) or [Godot Asset Library](https://godotengine.org/asset-library/asset/2007).
+You can find Godot SoftBody2D on [GitHub](https://github.com/appsinacup/godot-softbody2d) or [Godot Asset Library](https://godotengine.org/asset-library/asset/1621).
 
 ## How to install the SoftBody2D addon
 
