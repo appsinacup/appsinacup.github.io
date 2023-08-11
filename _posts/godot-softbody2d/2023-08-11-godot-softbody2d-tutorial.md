@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Python Notes from Intro to Machine Learning
-date: 2023-08-11 22:00:00 +01:00
 description: Godot SoftBody2D Tutorial - Plugin that adds deformable 2D soft body.
 ---
 
