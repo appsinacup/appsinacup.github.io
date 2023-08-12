@@ -1,8 +1,8 @@
 # Site settings
-title: Apps In A Cup # site title
+title:Apps In A Cup # site title
 description: >- # site description
-  Apps In A Cup
-lang: en-US # default lang
+  Apps In A Cup website. Developing plugins for Godot.
+lang: en # default lang
 timezone: UTC+1 # set your timezone
 image: assets/img/favicon.png # This image used for Open Graph more info https://ogp.me/
 mode: dark # default theme "dark" | "light"
