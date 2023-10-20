@@ -56,8 +56,8 @@ Pyramid with height of 50, each having 2 * level + 1 boxes.
 60 spring joints tied togheter
 
 <video controls autoplay muted style="width: 100%;">
-    <source type="video/webm" src="/assets/vid/spring-box2d.webm">
+    <source type="video/webm" src="/assets/vid/spring-joint-box2d.webm">
 </video>
 <video controls autoplay muted style="width: 100%;">
-    <source type="video/webm" src="/assets/vid/spring-godot.webm">
+    <source type="video/webm" src="/assets/vid/spring-joint-godot.webm">
 </video>
