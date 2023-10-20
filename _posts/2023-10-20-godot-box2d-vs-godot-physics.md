@@ -41,3 +41,26 @@ Pyramid with height of 50, each having 2 * level + 1 boxes.
 <video controls autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/stack-fall-godot.webm">
 </video>
+
+## Pin Joint Pull
+
+60 pin joints tied togheter
+
+<video controls autoplay muted style="width: 100%;">
+    <source type="video/webm" src="/assets/vid/pin-joint-box2d.webm">
+</video>
+<video controls autoplay muted style="width: 100%;">
+    <source type="video/webm" src="/assets/vid/pin-joint-godot.webm">
+</video>
+
+
+## Spring Joint Pull
+
+60 spring joints tied togheter
+
+<video controls autoplay muted style="width: 100%;">
+    <source type="video/webm" src="/assets/vid/spring-box2d.webm">
+</video>
+<video controls autoplay muted style="width: 100%;">
+    <source type="video/webm" src="/assets/vid/spring-godot.webm">
+</video>
