@@ -3,11 +3,8 @@ layout: post
 title: Godot Box2D vs Godot Physics
 tag: godot-box2d
 ---
-
 <!-- [Attributes by Finsweet] Auto Video -->
 <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>
-
-You can find Godot Box2D on [GitHub](https://github.com/appsinacup/godot-box2d) or [Godot Asset Library](https://godotengine.org/asset-library/asset/2007).
 
 ## Box Stack
 
