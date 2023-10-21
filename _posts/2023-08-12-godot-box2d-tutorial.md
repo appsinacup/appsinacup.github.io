@@ -4,6 +4,9 @@ title: Godot Box2D Tutorial
 tag: godot-box2d
 ---
 
+<image controls autoplay muted style="width: 100%;" src="/assets/img/box2d/banner.jpg">
+</image>
+
 You can find Godot Box2D on [GitHub](https://github.com/appsinacup/godot-box2d) or [Godot Asset Library](https://godotengine.org/asset-library/asset/2007).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T_vFVh5qZiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

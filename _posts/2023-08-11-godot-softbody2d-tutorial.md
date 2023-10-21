@@ -4,6 +4,9 @@ title: Godot SoftBody2D Tutorial
 tag: godot-softbody2d
 ---
 
+<image controls autoplay muted style="width: 100%;" src="/assets/img/softbody2d/banner.jpg">
+</image>
+
 You can find Godot SoftBody2D on [GitHub](https://github.com/appsinacup/godot-softbody2d) or [Godot Asset Library](https://godotengine.org/asset-library/asset/1621).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/By_AfqLxAKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

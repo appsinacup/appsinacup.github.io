@@ -6,6 +6,9 @@ tag: godot-box2d
 <!-- [Attributes by Finsweet] Auto Video -->
 <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>
 
+<image controls autoplay muted style="width: 100%;" src="/assets/img/box2d/banner.jpg">
+</image>
+
 ## Box Stack
 
 30 boxes stacked on top of each other.
