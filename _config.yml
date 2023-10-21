@@ -11,7 +11,7 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Apps In A Cup # author name
   bio: >- # tell to the world
-    
+    Making SoftBody2D and Box2D plugins for Godot.
   username: appsinacup # general username
   twitter: appsinacup # twitter username
   email: contact@appsinacup.com # email adress
