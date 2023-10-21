@@ -1,4 +1,7 @@
 <footer class="footer">
+  <a href="https://discord.gg/56dMud8HYn">
+		<img src="https://img.shields.io/discord/1138836561102897172?logo=discord"
+			alt="Chat on Discord"></a>
   <a class="footer_item" href="/feed.xml">rss</a>
   <span class="footer_item">&copy; {{ site.time | date: "%Y" }} Dragos Daian</span>
   <small class="footer_copyright">
@@ -17,13 +20,6 @@
 </footer>
 <script src="/assets/js/main.js" defer="defer"></script>
 
-{%- if page.google_analytics -%}
-  <script src="/assets/js/galite.js"></script>
-  <script>
-    var galite = galite || {};
-    galite.UA = "{{ site.google_analytics }}";
-  </script>
-{%- endif -%}
 {%- if page.url == '/posts/' -%}
   <script src="/assets/js/search.min.js"></script>
   <script>
