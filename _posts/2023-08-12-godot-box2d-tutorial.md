@@ -13,10 +13,10 @@ You can find Godot Box2D on [GitHub](https://github.com/appsinacup/godot-box2d) 
 
 ## How to install the Box2D plugin
 
-To install the SoftBody2D plugin in Godot Editor:
+To install the Box2D plugin in Godot Editor:
 
 1. Open the AssetLib tab.
-2. Search for SoftBody2D and click on the plugin.
+2. Search for Box2D and click on the plugin.
 3. Click Download and then Install.
 4. Restart when prompted.
 
