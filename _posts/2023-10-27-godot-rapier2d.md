@@ -6,9 +6,6 @@ tag: godot-rapier2d
 <!-- [Attributes by Finsweet] Auto Video -->
 <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>
 
-<image controls autoplay muted style="width: 100%;" src="/assets/img/rapier-2d/banner.jpg">
-</image>
-
 <video controls autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/rapier-2d.webm">
 </video>
