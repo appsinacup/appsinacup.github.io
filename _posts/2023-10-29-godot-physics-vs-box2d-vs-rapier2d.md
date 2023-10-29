@@ -12,7 +12,7 @@ This post will focus on comparing each physics engine as a Physics Server in God
 
 ## Godot Physics 2D
 
-<image controls autoplay muted style="width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Godot_logo.svg/1598px-Godot_logo.svg.png">
+<image controls autoplay muted style="width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Godot_logo.svg/1598px-Godot_logo.svg.png" style="background-color: white;">
 </image>
 
 
