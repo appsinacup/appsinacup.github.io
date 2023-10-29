@@ -12,11 +12,14 @@ tag: rapier2d, box2d
 
 The Godot Engine is a free, all-in-one, cross-platform game engine that makes it easy for you to create 2D and 3D games. So it's no surprise it also has a physics engine that works great for most use cases.
 
+## Rapier 2D
+
 <image controls autoplay muted style="width: 100%;" src="/assets/img/rapier-2d/banner.jpg">
 </image>
 
 Rapier is set of 2D and 3D physics engines focused on performance. They are written with the Rust programming language, by the [Dimforge](https://dimforge.com) organization. It is forever free and open-source! It is a relatively new contender, with only about 3 years since it was created.
 
+## Box2D
 
 <image controls autoplay muted style="width: 100%;" src="/assets/img/box2d/banner.jpg">
 </image>
