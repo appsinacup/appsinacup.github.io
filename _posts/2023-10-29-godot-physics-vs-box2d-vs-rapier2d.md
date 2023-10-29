@@ -14,7 +14,7 @@ The Godot Engine is a free, all-in-one, cross-platform game engine that makes it
 
 ## Rapier 2D
 
-<image controls autoplay muted style="width: 100%;" src="/assets/img/rapier-2d/banner.jpg">
+<image controls autoplay muted style="width: 100%;" src="https://rapier.rs/img/rapier_logo_color_textpath.svg">
 </image>
 
 Rapier is set of 2D and 3D physics engines focused on performance. They are written with the Rust programming language, by the [Dimforge](https://dimforge.com) organization. It is forever free and open-source! It is a relatively new contender, with only about 3 years since it was created.
