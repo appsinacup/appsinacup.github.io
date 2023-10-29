@@ -103,3 +103,8 @@ In this benchmark, we have little less than X revolute joints. These joint conne
 ## Prismatic joints
 
 In this benchmark, we have X prismatic joints attached in a way that forms several independent chains. Lower joint limits have been enabled
+
+
+---
+
+This article was inspired from the [Announcing the Rapier physics engine](https://www.dimforge.com/blog/2020/08/25/announcing-the-rapier-physics-engine/) post.
