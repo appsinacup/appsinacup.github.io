@@ -16,7 +16,7 @@ This post will focus on comparing each physics engine as a Physics Server in God
 </image>
 
 
-The Godot Engine is a free, all-in-one, cross-platform game engine that makes it easy for you to create 2D and 3D games. So it's no surprise it also has a physics engine that works great for most use cases.
+The [Godot Engine](https://godotengine.org) is a free, all-in-one, cross-platform game engine that makes it easy for you to create 2D and 3D games. So it's no surprise it also has a physics engine that works great for most use cases.
 
 ## Rapier2D
 
@@ -58,13 +58,13 @@ As it's expected, Godot Physics 2D has most of the node features, as it is the o
 🅾 - Partial
 ❌ - Missing (TODO)
 
-*   *1 The Box2D b2Distance function doesn't always return two points, which is how it is normally in Godot Physics. So this logic is a bit harder to implement.
+*1 The Box2D b2Distance function doesn't always return two points, which is how it is normally in Godot Physics. So this logic is a bit harder to implement.
 
-*   *2 Box2D doesn't support collision filtering where the layer and mask are asymetrically set(eg. one object collides with the other but the other doesn't receive any reaction force). Other than that, everything else is supported.
+*2 Box2D doesn't support collision filtering where the layer and mask are asymetrically set(eg. one object collides with the other but the other doesn't receive any reaction force). Other than that, everything else is supported.
 
-*   *3 It is currently missing ununiform scaling of circles and capsules. For comparison, rapier offers a function that transforms the circle into a polygon in this case.
+*3 It is currently missing ununiform scaling of circles and capsules. For comparison, rapier offers a function that transforms the circle into a polygon in this case.
 
-*   *4 Box2D is written with everything being a float. So in order to support this, a lot of changes need to be done.
+*4 Box2D is written with everything being a float. So in order to support this, a lot of changes need to be done.
 
 As can be seen here, right now Box2D is missing quite a few features that Godot Physics already has. Some can be implemented, eg. the shape scale and CharacterBody2D move_and_slide, some can't, eg. collision filtering.
 
