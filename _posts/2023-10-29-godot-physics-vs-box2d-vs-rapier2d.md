@@ -36,8 +36,7 @@ In this comparison, I will present the integration of each framework in Godot as
 |StaticBody2D|Static Body|✅|✅|✅|
 |Area2D|Static Body with callbacks|✅|✅|✅|
 |AnimatableBody2D|Kinematic Body|✅|✅|✅|
-|CharacterBody2D|Kinematic Body with logic for moving|✅|✅|✅|
-|CharacterBody2D.move_and_slide|Thelogic for moving|✅|🅾 *1|✅|
+|CharacterBody2D.move_and_slide|Thelogic for moving|✅|❌ *1|✅|
 |CollisionObject2D.collision_layer and CollisionObject2D.collision_mask|Intersection Filtering|✅|🅾 *2|✅|
 |Shape2D|Circles, Convex and Concave Polygons and Compound|✅|✅|✅|
 |Shape2D.scale|Scaling the shapes|✅|🅾 *3|✅|
