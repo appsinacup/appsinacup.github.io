@@ -12,6 +12,10 @@ This post will focus on comparing each physics engine as a Physics Server in God
 
 ## Godot Physics 2D
 
+<image controls autoplay muted style="width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Godot_logo.svg/1598px-Godot_logo.svg.png">
+</image>
+
+
 The Godot Engine is a free, all-in-one, cross-platform game engine that makes it easy for you to create 2D and 3D games. So it's no surprise it also has a physics engine that works great for most use cases.
 
 ## Rapier2D
