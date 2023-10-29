@@ -64,3 +64,38 @@ As it's expected, Godot Physics 2D has most of the node features, as it is the o
 
 # Performance
 
+These are the simulation parameters used in all physics engines:
+
+|Parameter|Value|
+|-|-|
+|Timestep length|0.016 (i.e. 16 milliseconds)|
+|Number of velocity iterations|4|
+|Number of position iterations|1|
+|Number of threads|1|
+
+The machines used in this benchmark are the following:
+
+- A MacBook Air with M1 (plugged to a power outlet), running Mac OS, equipped with an ARM based M1 Chip.
+- A Windows Laptop with ASUS ROG Zephyrus G14, AMD Ryzen 9 4900HS
+
+TODO
+
+## Stacked Balls
+
+In this benchmark there are X balls falling on a ground composed of balls.
+
+## Falling Boxes
+
+In this benchmark, there are about X small cubes falling on a large cubic "cup" in a completely unordered way.
+
+## Pyramid of boxes
+
+In this benchmark, there is a set of X boxes falling in such a way that they form a single large pyramid in the end
+
+## Revolute joints
+
+In this benchmark, we have little less than X revolute joints. These joint connect rigid bodies in such a way that we end up with a single large fabric-like sheet.
+
+## Prismatic joints
+
+In this benchmark, we have X prismatic joints attached in a way that forms several independent chains. Lower joint limits have been enabled
