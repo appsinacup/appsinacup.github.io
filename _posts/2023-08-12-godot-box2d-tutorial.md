@@ -26,13 +26,3 @@ To enable the plugin:
 2. Go to Physics -> 2D. Enable Advance Settings.
 3. At Physics Engine select Box2D.
 4. Restart when prompted.
-
-## How to stress test the Box2D plugin
-
-Download the [Godot Physics Tests](https://github.com/fabriceci/Godot-Physics-Tests) repo.
-
-Go to the `tests/performance/collisions/tests/2d/avg_fps_before_low_fps.gd` test. Run the scene by clicking Run Current Scene.
-
-Download the Box2D plugin and enable it as described above.
-
-Run the scene again. Compare the two runs by seeing maximum shapes supported and simulation stability.

@@ -9,6 +9,8 @@ tag: godot-rapier2d
 
 You can find Godot Rapier2D on [GitHub](https://github.com/appsinacup/godot-rapier-2d) or [Godot Asset Library](https://godotengine.org/asset-library/asset/2267).
 
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=KgKWAZ49T9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## How to install the Rapier 2D plugin
 
 To install the Rapier 2D plugin in Godot Editor:
@@ -24,13 +26,3 @@ To enable the plugin:
 2. Go to Physics -> 2D. Enable Advance Settings.
 3. At Physics Engine select Rapier2D.
 4. Restart when prompted.
-
-## How to stress test the Rapier 2D plugin
-
-Download the [Godot Physics Tests](https://github.com/fabriceci/Godot-Physics-Tests) repo.
-
-Go to the `tests/performance/collisions/tests/2d/avg_fps_before_low_fps.gd` test. Run the scene by clicking Run Current Scene.
-
-Download the Rapier 2D plugin and enable it as described above.
-
-Run the scene again. Compare the two runs by seeing maximum shapes supported and simulation stability.
