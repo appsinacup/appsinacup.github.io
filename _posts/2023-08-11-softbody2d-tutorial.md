@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Godot SoftBody2D Tutorial
-tag: godot-softbody2d
+title: SoftBody2D Tutorial
+tag: softbody2d
 ---
 
 <image controls autoplay muted style="width: 100%;" src="/assets/img/softbody2d/banner.jpg">

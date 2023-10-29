@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Godot Rapier2D Tutorial
-tag: godot-rapier2d
+title: Rapier2D Tutorial
+tag: rapier2d
 ---
 
 <image controls autoplay muted style="width: 100%;" src="/assets/img/rapier-2d/banner.jpg">
