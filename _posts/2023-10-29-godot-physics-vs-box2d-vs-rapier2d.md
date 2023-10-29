@@ -8,7 +8,7 @@ tag: rapier2d, box2d
 
 # Introduction of each framework
 
-This post will focus on comparing each physics engine as a Physics Server in Godot, so they both have to implement the same API. When refering if a physics engine has a feature or not, I will refer to the Godot Asset that implements that physics engine (eg. Godot Box2D and Godot Rapier2D).
+This post will focus on comparing each physics engine as a `Physics Server` in Godot, so they both have to implement the same API. When refering if a physics engine has a feature or not, I will refer to the Godot Asset that implements that physics engine (eg. Godot Box2D and Godot Rapier2D).
 
 ## Godot Physics 2D
 
@@ -66,9 +66,9 @@ As it's expected, Godot Physics 2D has most of the node features, as it is the o
 
 *4 Box2D is written with everything being a float. So in order to support this, a lot of changes need to be done.
 
-As can be seen here, right now Box2D is missing quite a few features that Godot Physics already has. Some can be implemented, eg. the shape scale and CharacterBody2D move_and_slide, some can't, eg. collision filtering.
+As can be seen here, right now `Box2D` is missing quite a few features that Godot Physics already has. Some can be implemented, eg. the shape scale and CharacterBody2D move_and_slide, some can't, eg. collision filtering.
 
-As for Rapier2D, it has a lot of extra features which both Godot and Box2D don't have, eg. SIMD, cross platform determinism. It's biggest weakness is the missing DampedSpringJoint2D which both Godot Physics 2D and Box2D have.
+As for `Rapier2D`, it has a lot of extra features which both Godot and Box2D don't have, eg. SIMD, cross platform determinism. It's biggest weakness is the missing DampedSpringJoint2D which both Godot Physics 2D and Box2D have.
 
 # Performance
 
