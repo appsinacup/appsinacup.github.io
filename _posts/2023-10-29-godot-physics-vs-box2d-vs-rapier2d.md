@@ -83,8 +83,8 @@ These are the simulation parameters used in all physics engines:
 
 The machines used in this benchmark are the following:
 
-- A MacBook Air with M1 (plugged to a power outlet), running Mac OS, equipped with an ARM based M1 Chip.
-- A Windows Laptop with ASUS ROG Zephyrus G14, AMD Ryzen 9 4900HS
+- A MacBook Air with M1 (plugged to a power outlet).
+- A Windows Laptop with ASUS ROG Zephyrus G14, AMD Ryzen 9 4900HS (plugged to a power outlet)
 
 TODO
 
