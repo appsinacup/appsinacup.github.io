@@ -47,7 +47,7 @@ As it's expected, Godot Physics 2D has most of the node features, as it is the o
 |DampedSpringJoint2D|A spring joint|❌|✅|✅|
 |SIMD|Single instruction, multiple data|✅|❌|❌|
 |Cross-platform determinism|The simulation would run the same on any platform|✅|❌|❌|
-|Single and Double precision|Large game worlds support|✅|❌*4|✅|
+|64-bits physics|Large game worlds support|✅|❌*4|✅|
 |Parallelization Support|Enables parallelism of the physics pipeline|✅|❌|✅|
 
 ✅ - Implemented
