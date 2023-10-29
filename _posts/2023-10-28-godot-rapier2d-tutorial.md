@@ -9,7 +9,7 @@ tag: godot-rapier2d
 
 You can find Godot Rapier2D on [GitHub](https://github.com/appsinacup/godot-rapier-2d) or [Godot Asset Library](https://godotengine.org/asset-library/asset/2267).
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=KgKWAZ49T9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KgKWAZ49T9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## How to install the Rapier 2D plugin
 
