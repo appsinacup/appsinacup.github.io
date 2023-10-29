@@ -58,13 +58,13 @@ As it's expected, Godot Physics 2D has most of the node features, as it is the o
 🅾 - Partial
 ❌ - Missing (TODO)
 
-*1 The Box2D b2Distance function doesn't always return two points, which is how it is normally in Godot Physics. So this logic is a bit harder to implement.
+*   1 The Box2D b2Distance function doesn't always return two points, which is how it is normally in Godot Physics. So this logic is a bit harder to implement.
 
-*2 Box2D doesn't support collision filtering where the layer and mask are asymetrically set(eg. one object collides with the other but the other doesn't receive any reaction force). Other than that, everything else is supported.
+*   2 Box2D doesn't support collision filtering where the layer and mask are asymetrically set(eg. one object collides with the other but the other doesn't receive any reaction force). Other than that, everything else is supported.
 
-*3 It is currently missing ununiform scaling of circles and capsules. For comparison, rapier offers a function that transforms the circle into a polygon in this case.
+*   3 It is currently missing ununiform scaling of circles and capsules. For comparison, rapier offers a function that transforms the circle into a polygon in this case.
 
-*4 Box2D is written with everything being a float. So in order to support this, a lot of changes need to be done.
+*   4 Box2D is written with everything being a float. So in order to support this, a lot of changes need to be done.
 
 # Performance
 
