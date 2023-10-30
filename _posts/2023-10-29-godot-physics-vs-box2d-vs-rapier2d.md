@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Godot Physics vs Box 2D vs Rapier 2D
+title: Godot Physics 4.2 vs Box 2D 2.4.1 vs Rapier 2D 0.17.2
 tag: rapier2d, box2d
 ---
 <!-- [Attributes by Finsweet] Auto Video -->
@@ -10,7 +10,7 @@ tag: rapier2d, box2d
 
 This post will focus on comparing each physics engine as a `Physics Server` in Godot, so they both have to implement the same API. When refering if a physics engine has a feature or not, I will refer to the Godot Asset that implements that physics engine (eg. Godot Box2D and Godot Rapier2D).
 
-## Godot Physics 2D
+## Godot Physics 2D 4.2
 
 <image controls autoplay muted style="width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Godot_logo.svg/1598px-Godot_logo.svg.png" style="background-color: white;">
 </image>
