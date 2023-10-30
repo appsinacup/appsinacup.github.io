@@ -78,14 +78,15 @@ The machines used in this benchmark are the following:
 - A MacBook Air with M1 (plugged to a power outlet).
 - A Windows Laptop with ASUS ROG Zephyrus G14, AMD Ryzen 9 4900HS (plugged to a power outlet)
 
-## Stacked Circles
-
-In this benchmark we test the stability of stacked circles as the stacking size increases.
-
-
 ## Stacked Boxes
 
-In this benchmark we test the stability of stacked boxes as the stacking size increases.
+In this benchmark we test the maximum number of stacked boxes until the pyramid doesn't remain stable anymore.
+
+
+|Parameter|Godot Physics 2D|Box2D|Rapier2D|
+|-|-|-|-|
+|Max Height|10|40|20|
+|Number of Rectangles|110|1640|420|
 
 
 ## Falling Circles
