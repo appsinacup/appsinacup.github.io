@@ -38,8 +38,8 @@ As it's expected, Godot Physics 2D has most of the node features, as it is the o
 
 |Godot Feature|Dynamics features|Godot Physics 2D|Box2D|Rapier2D|
 |-|-|-|-|-|
-|CharacterBody2D.move_and_slide|The logic for moving|✅|❌ *1|✅|
 |DampedSpringJoint2D|A spring joint|✅|✅|❌|
+|CharacterBody2D.move_and_slide|The logic for moving|✅|❌ *1|✅|
 |SIMD|Single instruction, multiple data|❌|❌|✅|
 |Cross-platform determinism|The simulation would run the same on any platform|❌|❌|✅|
 |64-bits physics|Large game worlds support|✅|❌*3|✅|
@@ -92,14 +92,14 @@ In this benchmark we test the stability of stacked boxes as the stacking size in
 
 In this benchmark, we keep adding falling circles until the fps drops or stability is affected.
 
-<image controls autoplay muted style="width: 100%;" src="/assets/img/benchmark/falling-circles.jpg">
+<image controls autoplay muted style="width: 100%;" src="/assets/img/benchmark/falling-circles.png">
 </image>
 
 ## Falling Boxes
 
 In this benchmark, we keep adding falling boxes until the fps drops or stability is affected.
 
-<image controls autoplay muted style="width: 100%;" src="/assets/img/benchmark/falling-squares.jpg">
+<image controls autoplay muted style="width: 100%;" src="/assets/img/benchmark/falling-squares.png">
 </image>
 
 ## Pyramid of Boxes
