@@ -73,10 +73,9 @@ These are the simulation parameters used in all physics engines:
 
 * Note: These are the **plugin** default values for all libraries. The libraries themselves have other defaults. Also, not all libraries have the same number of parameters
 
-The machines used in this benchmark are the following:
+The machine used in this benchmark:
 
 - A MacBook Air with M1 (plugged to a power outlet).
-- A Windows Laptop with ASUS ROG Zephyrus G14, AMD Ryzen 9 4900HS (plugged to a power outlet)
 
 ## Falling Circles
 
