@@ -78,17 +78,6 @@ The machines used in this benchmark are the following:
 - A MacBook Air with M1 (plugged to a power outlet).
 - A Windows Laptop with ASUS ROG Zephyrus G14, AMD Ryzen 9 4900HS (plugged to a power outlet)
 
-## Stacked Boxes
-
-In this benchmark we test the maximum number of stacked boxes until the pyramid doesn't remain stable anymore.
-
-
-|Parameter|Godot Physics 2D|Box2D|Rapier2D|
-|-|-|-|-|
-|Max Height|10|40|20|
-|Number of Rectangles|110|1640|420|
-
-
 ## Falling Circles
 
 In this benchmark, we keep adding falling circles until the fps drops or stability is affected.
@@ -107,14 +96,23 @@ In this benchmark, we keep adding falling boxes until the fps drops or stability
 
 In this benchmark, we keep increasing the height of the pyramid until it is unstable.
 
-## Revolute joints
+|Parameter|Godot Physics 2D|Box2D|Rapier2D|
+|-|-|-|-|
+|Max Height|10|40|20|
+|Number of Rectangles|110|1640|420|
 
-In this benchmark, we have little less than X revolute joints. These joint connect rigid bodies in such a way that we end up with a single large fabric-like sheet.
 
-## Prismatic joints
+## Stacked Boxes
 
-In this benchmark, we have X prismatic joints attached in a way that forms several independent chains. Lower joint limits have been enabled
+In this benchmark we test the maximum number of stacked boxes until the pyramid doesn't remain stable anymore.
 
+# Conclusion
+
+Rapier is much faster than the competition, but it's not doing so well in stackability (can be improved by increasing simulation parameters). This is because it is missing warmstart feature. When/if that is added, the stackability component should improve.
+
+Box2D on the other hand, while not having the best performance, it has really good stackability.
+
+Godot Physics 2D has also good performance on numbers, but in reality after a certain amount of objects, it starts to jitter a lot, making it completely unusable, even if it's fast (eg. objects pass through things and other bad things)
 
 ---
 
