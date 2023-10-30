@@ -93,17 +93,25 @@ The machines used in this benchmark are the following:
 
 In this benchmark we test the stability of stacked circles as the stacking size increases.
 
+
 ## Stacked Boxes
 
 In this benchmark we test the stability of stacked boxes as the stacking size increases.
+
 
 ## Falling Circles
 
 In this benchmark, we keep adding falling circles until the fps drops or stability is affected.
 
+<image controls autoplay muted style="width: 100%;" src="/assets/img/benchmark/falling-circles.jpg">
+</image>
+
 ## Falling Boxes
 
 In this benchmark, we keep adding falling boxes until the fps drops or stability is affected.
+
+<image controls autoplay muted style="width: 100%;" src="/assets/img/benchmark/falling-squares.jpg">
+</image>
 
 ## Pyramid of Boxes
 
