@@ -26,3 +26,11 @@ To enable the plugin:
 2. Go to Physics -> 2D. Enable Advance Settings.
 3. At Physics Engine select Rapier2D.
 4. Restart when prompted.
+
+## Notes
+
+It should be noted that Rapier does not have warm starting capabilities. This means that in specific configurations, such as a stack of boxes or a pyramid of boxes, its stability will be less than that of Box2D. 
+
+That's why, by default, the number of iterations in Rapier is set relatively high. This comes with a performance cost, but it still remains at the forefront in terms of performance. This higher iteration count helps to mitigate the aforementioned stability issue. Hopefully, this feature will be implemented in rapier in the future.
+
+Hopefully, this feature will be implemented in rapier in the future.
