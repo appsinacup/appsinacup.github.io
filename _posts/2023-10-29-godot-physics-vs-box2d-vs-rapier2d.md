@@ -101,11 +101,6 @@ In this benchmark, we keep increasing the height of the pyramid until it is unst
 |Max Height|10|40|20|
 |Number of Rectangles|110|1640|420|
 
-
-## Stacked Boxes
-
-In this benchmark we test the maximum number of stacked boxes until the pyramid doesn't remain stable anymore.
-
 # Conclusion
 
 Rapier is much faster than the competition, but it's not doing so well in stackability (can be improved by increasing simulation parameters). This is because it is missing warmstart feature. When/if that is added, the stackability component should improve.
