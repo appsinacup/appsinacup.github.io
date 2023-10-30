@@ -38,15 +38,7 @@ As it's expected, Godot Physics 2D has most of the node features, as it is the o
 
 |Godot Feature|Dynamics features|Godot Physics 2D|Box2D|Rapier2D|
 |-|-|-|-|-|
-|RigidBody2D|Rigid Body|✅|✅|✅|
-|StaticBody2D|Static Body|✅|✅|✅|
-|Area2D|Static Body with callbacks|✅|✅|✅|
-|AnimatableBody2D|Kinematic Body|✅|✅|✅|
 |CharacterBody2D.move_and_slide|The logic for moving|✅|❌ *1|✅|
-|CollisionObject2D.collision_layer and CollisionObject2D.collision_mask|Intersection Filtering|✅|🅾 *2|✅|
-|Shape2D|Circles, Convex and Concave Polygons and Compound|✅|✅|✅|
-|PinJoint2D|A revolute joint|✅|✅|✅|
-|GrooveJoint2D|A prismatic joint|✅|✅|✅|
 |DampedSpringJoint2D|A spring joint|✅|✅|❌|
 |SIMD|Single instruction, multiple data|❌|❌|✅|
 |Cross-platform determinism|The simulation would run the same on any platform|❌|❌|✅|
@@ -54,14 +46,11 @@ As it's expected, Godot Physics 2D has most of the node features, as it is the o
 |Parallelization Support|Enables parallelism of the physics pipeline|✅|❌|✅|
 
 ✅ - Implemented
-🅾 - Partial
-❌ - Missing (TODO)
+❌ - Missing
 
 *1 The Box2D b2Distance function doesn't always return two points, which is how it is normally in Godot Physics.
 
-*2 Box2D doesn't support collision filtering where the layer and mask are asymetrically set.
-
-*3 Box2D is written with everything being a float.
+*2 Box2D is written with everything being a float.
 
 As can be seen here, right now `Box2D` is missing quite a few features that Godot Physics already has. Some can be implemented, eg. the shape scale and CharacterBody2D move_and_slide, some can't, eg. collision filtering.
 
