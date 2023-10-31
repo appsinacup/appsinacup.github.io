@@ -52,10 +52,6 @@ As it's expected, Godot Physics 2D has most of the node features, as it is the o
 
 *2 Box2D is written with everything being a float.
 
-As can be seen here, right now `Box2D` is missing quite a few features that Godot Physics already has. Some can be implemented, eg. the shape scale and CharacterBody2D move_and_slide, some can't, eg. collision filtering.
-
-As for `Rapier2D`, it has a lot of extra features which both Godot and Box2D don't have, eg. SIMD, cross platform determinism. It's biggest weakness is the missing DampedSpringJoint2D which both Godot Physics 2D and Box2D have.
-
 # Performance
 
 The project used is the [appsinacup/benchmark](https://github.com/appsinacup/benchmark). The steps for changing the physics backend is done by using the options menu from Godot.
@@ -102,11 +98,11 @@ In this benchmark, we keep increasing the height of the pyramid until it is unst
 
 # Conclusion
 
-Rapier is much faster than the competition, but it's not doing so well in stackability (can be improved by increasing simulation parameters). This is because it is missing warmstart feature. When/if that is added, the stackability component should improve.
+Rapier (0.17.2) is much faster than the competition, has simd and cross platform determinism, but it's not doing so well in stackability (can be improved by increasing simulation parameters). This is because it is missing warmstart feature. When/if that is added, the stackability component should improve. On the things it is missing, it doesn't have DampedSpringJoint2D, as the library is missing a spring joint implementation.
 
-Box2D on the other hand, while not having the best performance, it has really good stackability.
+Box2D (2.4.1) on the other hand, while not having the best performance, it has really good stackability. On the things it is missing, it's implementation of CharacterBody2D.move_and_slide is very jittery (this does not reflect on the libray but on me, the one who wrote the wrapper that integrates Box2D).
 
-Godot Physics 2D has also good performance on numbers, but in reality after a certain amount of objects, it starts to jitter a lot, making it completely unusable, even if it's fast (eg. objects pass through things and other bad things)
+Godot Physics 2D (4.2) has also good performance on numbers, but in reality after a certain amount of objects, it starts to jitter a lot, making it completely unusable, even if it's fast (eg. objects pass through things and other bad things)
 
 ---
 
