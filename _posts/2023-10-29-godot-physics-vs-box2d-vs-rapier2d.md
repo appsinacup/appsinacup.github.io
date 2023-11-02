@@ -174,7 +174,7 @@ In this benchmark, we keep increasing the height of the pyramid until it is unst
 
 |Performance|SIMD|Cross Platform Determinism|Stackability|Joint Stability|
 |-|-|-|-|-|
-|performs ok for small amount of objects.|No|No|Last Place|Last Place|
+|Performs ok for small amount of objects.|No|No|Last Place|Last Place|
 
 Notes:
 
@@ -184,7 +184,7 @@ Notes:
 
 |Performance|SIMD|Cross Platform Determinism|Stackability|Joint Stability|
 |-|-|-|-|-|
-|a little slower than godot.|No|No|Best|Best|
+|A little slower than godot.|No|No|Best|Best|
 
 Notes:
 
@@ -194,7 +194,7 @@ Notes:
 
 |Performance|SIMD|Cross Platform Determinism|Stackability|Joint Stability|
 |-|-|-|-|-|
-|Best|Yes|Yes|Better than Godot, but not best|Better than Godot, but not best|
+|Best, about 2x,3x faster than competition|Yes|Yes|Better than Godot, but not best|Better than Godot, but not best|
 
 Note:
 
