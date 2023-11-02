@@ -169,9 +169,15 @@ The stackability might be improved when warmstarter is implemented.
 
 ## Box2D (2.4.1)
 
-- performance a little bit worse than godot.
+Pros:
+
 - best stackability.
 - best joint stability.
+
+Cons:
+
+- performance a little bit worse than godot.
+- missing simd and cross platform determinism.
 
 Notes:
 
@@ -189,6 +195,7 @@ Cons:
 - in reality after a certain amount of objects, it starts to jitter a lot, making it completely unusable (eg. objects pass through things and other bad things).
 - stability last place.
 - stackability last place.
+- missing simd and cross platform determinism.
 
 ---
 
