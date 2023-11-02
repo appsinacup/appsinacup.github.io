@@ -39,18 +39,14 @@ As it's expected, Godot Physics 2D has most of the node features, as it is the o
 |Godot Feature|Dynamics features|Godot Physics 2D|Box2D|Rapier2D|
 |-|-|-|-|-|
 |DampedSpringJoint2D|A spring joint|✅|✅|❌|
-|CharacterBody2D.move_and_slide|The logic for moving|✅|❌ *1|✅|
+|CharacterBody2D.move_and_slide|The logic for moving|✅|❌|✅|
 |SIMD|Single instruction, multiple data|❌|❌|✅|
 |Cross-platform determinism|The simulation would run the same on any platform|❌|❌|✅|
-|64-bits physics|Large game worlds support|✅|❌*3|✅|
+|64-bits physics|Large game worlds support|✅|❌|✅|
 |Parallelization Support|Enables parallelism of the physics pipeline|✅|❌|✅|
 
 ✅ - Implemented
 ❌ - Missing
-
-*1 The Box2D b2Distance function doesn't always return two points, which is how it is normally in Godot Physics.
-
-*2 Box2D is written with everything being a float.
 
 # Performance
 
