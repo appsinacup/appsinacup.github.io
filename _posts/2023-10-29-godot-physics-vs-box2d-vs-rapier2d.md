@@ -75,12 +75,20 @@ The machine used in this benchmark:
 
 ## Falling Circles
 
+<video controls autoplay muted style="width: 100%;">
+    <source type="video/webm" src="/assets/vid/benchmark/falling_circles.webm">
+</video>
+
 In this benchmark, we keep adding falling circles until the fps drops or stability is affected.
 
 <image controls autoplay muted style="width: 100%;" src="/assets/img/benchmark/falling-circles.png">
 </image>
 
 ## Falling Boxes
+
+<video controls autoplay muted style="width: 100%;">
+    <source type="video/webm" src="/assets/vid/benchmark/falling_rectangles.webm">
+</video>
 
 In this benchmark, we keep adding falling boxes until the fps drops or stability is affected.
 
@@ -89,12 +97,56 @@ In this benchmark, we keep adding falling boxes until the fps drops or stability
 
 ## Pyramid of Boxes
 
+<video controls autoplay muted style="width: 100%;">
+    <source type="video/webm" src="/assets/vid/benchmark/pyramid.webm">
+</video>
+
 In this benchmark, we keep increasing the height of the pyramid until it is unstable.
 
 |Parameter|Godot Physics 2D|Box2D|Rapier2D|
 |-|-|-|-|
 |Max Height|10|40|20|
 |Number of Rectangles|110|1640|420|
+
+## Fabric of Pin Joints
+
+<video controls autoplay muted style="width: 100%;">
+    <source type="video/webm" src="/assets/vid/benchmark/fabric.webm">
+</video>
+
+In this benchmark, we keep increasing the width and size of the fabric until we get instability.
+
+|Parameter|Godot Physics 2D|Box2D|Rapier2D|
+|-|-|-|-|
+|Max Size|10|60|30|
+|Number of Rectangles|100|3600|900|
+|Number of Pin Joints|172|7022|1722|
+
+## Fabric of Spring Joints
+
+<video controls autoplay muted style="width: 100%;">
+    <source type="video/webm" src="/assets/vid/benchmark/fabric_soft.webm">
+</video>
+
+In this benchmark, we keep increasing the width and size of the fabric until we get instability.
+
+|Parameter|Godot Physics 2D|Box2D|Rapier2D|
+|-|-|-|-|
+|Max Size|10|30|-|
+|Number of Rectangles|100|90|-|
+|Number of Pin Joints|172|1712|-|
+
+## Stack of Boxes
+
+<video controls autoplay muted style="width: 100%;">
+    <source type="video/webm" src="/assets/vid/benchmark/stack.webm">
+</video>
+
+In this benchmark, we keep increasing the height of the pyramid until it is unstable.
+
+|Parameter|Godot Physics 2D|Box2D|Rapier2D|
+|-|-|-|-|
+|Max Height|10|25|10|
 
 # Conclusion
 
