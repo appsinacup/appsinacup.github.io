@@ -177,7 +177,7 @@ Pros:
 
 Cons:
 
-- performance a little bit worse than godot.
+- performance a little bit slower than godot.
 - missing simd and cross platform determinism.
 
 Notes:
