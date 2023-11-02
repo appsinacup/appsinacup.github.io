@@ -171,6 +171,7 @@ The stackability might be improved when warmstarter is implemented.
 
 Pros:
 
+- best overall stability.
 - best stackability.
 - best joint stability.
 
