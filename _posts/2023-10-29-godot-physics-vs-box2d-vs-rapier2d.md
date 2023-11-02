@@ -7,10 +7,12 @@ tag: rapier2d, box2d
 <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>
 
 # Table of Contents
-1. [Introduction=](#introduction)
+1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Performance](#performance)
 4. [Conclusion](#conclusion)
+
+<div id='introduction'/>
 
 # 1. Introduction
 
@@ -28,6 +30,8 @@ Box2D is a free 2D open source physics engine for games and published under MIT 
 
 Rapier is set of 2D and 3D physics engines focused on performance. They are written with the Rust programming language, by the [Dimforge](https://dimforge.com) organization. It is forever free and open-source! It is a relatively new contender, with only about 3 years since it was created.
 
+<div id='features'/>
+
 # 2. Features
 
 As it's expected, Godot Physics 2D has most of the node features, as it is the one defining the API for the other two.
@@ -43,6 +47,8 @@ As it's expected, Godot Physics 2D has most of the node features, as it is the o
 
 ✅ - Implemented
 ❌ - Missing
+
+<div id='performance'/>
 
 # 3. Performance
 
@@ -146,6 +152,8 @@ In this benchmark, we keep increasing the height of the pyramid until it is unst
 |1st|2nd|2nd|
 |-|-|-|
 |Box2D|Rapier2D|Godot Physics 2D|
+
+<div id='conclusion'/>
 
 # 4. Conclusion
 
