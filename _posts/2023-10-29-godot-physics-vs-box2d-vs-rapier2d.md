@@ -16,15 +16,15 @@ tag: rapier2d, box2d
 
 This post will focus on comparing each physics engine as a `Physics Server` in Godot, so they both have to implement the same API. When refering if a physics engine has a feature or not, I will refer to the Godot Asset that implements that physics engine (eg. Godot Box2D and Godot Rapier2D).
 
-## 1.1 Godot Physics 2D 4.2
+## 1.1 Godot Physics 2D (4.2)
 
 The [Godot Engine](https://godotengine.org) is a free, all-in-one, cross-platform game engine that makes it easy for you to create 2D and 3D games. So it's no surprise it also has a physics engine that works great for most use cases.
 
-## 1.2 Box2D 2.4.1
+## 1.2 Box2D (2.4.1)
 
 Box2D is a free 2D open source physics engine for games and published under MIT license. It is written by [Erin Catto](https://box2d.org) and is one of the oldest (more than 15 years) and most stable 2d physics library out there.
 
-## 1.3 Rapier2D 0.17.2
+## 1.3 Rapier2D (0.17.2)
 
 Rapier is set of 2D and 3D physics engines focused on performance. They are written with the Rust programming language, by the [Dimforge](https://dimforge.com) organization. It is forever free and open-source! It is a relatively new contender, with only about 3 years since it was created.
 
