@@ -80,6 +80,10 @@ In this benchmark, we keep adding falling circles until the fps drops or stabili
 <image controls autoplay muted style="width: 100%;" src="/assets/img/benchmark/falling-circles.png">
 </image>
 
+|1st|2nd|3rd|
+|-|-|-|
+|Rapier2D|Godot Physics 2D|Box2D|
+
 ## Falling Boxes
 
 <video controls loop autoplay muted style="width: 100%;">
@@ -90,6 +94,10 @@ In this benchmark, we keep adding falling boxes until the fps drops or stability
 
 <image controls autoplay muted style="width: 100%;" src="/assets/img/benchmark/falling-squares.png">
 </image>
+
+|1st|2nd|3rd|
+|-|-|-|
+|Rapier2D|Godot Physics 2D|Box2D|
 
 ## Pyramid of Boxes
 
@@ -103,6 +111,10 @@ In this benchmark, we keep increasing the height of the pyramid until it is unst
 |-|-|-|-|
 |Max Height|10|40|20|
 |Number of Rectangles|110|1640|420|
+
+|1st|2nd|3rd|
+|-|-|-|
+|Box2D|Rapier2D|Godot Physics 2D|
 
 ## Fabric of Pin Joints
 
@@ -118,6 +130,10 @@ In this benchmark, we keep increasing the width and size of the fabric until we 
 |Number of Rectangles|100|3600|900|
 |Number of Pin Joints|172|7022|1722|
 
+|1st|2nd|3rd|
+|-|-|-|
+|Box2D|Rapier2D|Godot Physics 2D|
+
 ## Fabric of Spring Joints
 
 <video controls loop autoplay muted style="width: 100%;">
@@ -132,6 +148,10 @@ In this benchmark, we keep increasing the width and size of the fabric until we 
 |Number of Rectangles|100|90|-|
 |Number of Pin Joints|172|1712|-|
 
+|1st|2nd|3rd|
+|-|-|-|
+|Box2D|Godot Physics 2D|Rapier2D|
+
 ## Stack of Boxes
 
 <video controls loop autoplay muted style="width: 100%;">
@@ -143,6 +163,10 @@ In this benchmark, we keep increasing the height of the pyramid until it is unst
 |Parameter|Godot Physics 2D|Box2D|Rapier2D|
 |-|-|-|-|
 |Max Height|10|25|10|
+
+|1st|2nd|2nd|
+|-|-|-|
+|Box2D|Rapier2D|Godot Physics 2D|
 
 # Conclusion
 
