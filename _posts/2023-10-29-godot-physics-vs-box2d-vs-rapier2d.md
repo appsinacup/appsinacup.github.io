@@ -60,7 +60,7 @@ The project used is the [appsinacup/benchmark](https://github.com/appsinacup/ben
 
 In this benchmark, we keep adding falling circles until the fps drops or stability is affected.
 
-<image controls autoplay muted style="width: 80%;" src="/assets/img/benchmark/falling-circles.png">
+<image controls autoplay muted style="width: 70%;" src="/assets/img/benchmark/falling-circles.png">
 </image>
 
 |1st|2nd|3rd|
@@ -75,7 +75,7 @@ In this benchmark, we keep adding falling circles until the fps drops or stabili
 
 In this benchmark, we keep adding falling boxes until the fps drops or stability is affected.
 
-<image controls autoplay muted style="width: 80%;" src="/assets/img/benchmark/falling-squares.png">
+<image controls autoplay muted style="width: 70%;" src="/assets/img/benchmark/falling-squares.png">
 </image>
 
 |1st|2nd|3rd|
