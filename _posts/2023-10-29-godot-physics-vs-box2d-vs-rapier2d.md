@@ -6,7 +6,13 @@ tag: rapier2d, box2d
 <!-- [Attributes by Finsweet] Auto Video -->
 <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>
 
-# 1. Introduction of each framework
+# Table of Contents
+1. [Introduction=](#introduction)
+2. [Features](#features)
+3. [Performance](#performance)
+4. [Conclusion](#conclusion)
+
+# 1. Introduction
 
 This post will focus on comparing each physics engine as a `Physics Server` in Godot, so they both have to implement the same API. When refering if a physics engine has a feature or not, I will refer to the Godot Asset that implements that physics engine (eg. Godot Box2D and Godot Rapier2D).
 
