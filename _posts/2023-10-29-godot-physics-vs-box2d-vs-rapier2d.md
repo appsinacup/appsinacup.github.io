@@ -12,23 +12,13 @@ This post will focus on comparing each physics engine as a `Physics Server` in G
 
 ## Godot Physics 2D 4.2
 
-<image controls autoplay muted style="width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Godot_logo.svg/1598px-Godot_logo.svg.png" style="background-color: white;">
-</image>
-
-
 The [Godot Engine](https://godotengine.org) is a free, all-in-one, cross-platform game engine that makes it easy for you to create 2D and 3D games. So it's no surprise it also has a physics engine that works great for most use cases.
 
 ## Box2D 2.4.1
 
-<image controls autoplay muted style="width: 100%;" src="/assets/img/box2d/banner.jpg">
-</image>
-
 Box2D is a free 2D open source physics engine for games and published under MIT license. It is written by [Erin Catto](https://box2d.org) and is one of the oldest (more than 15 years) and most stable 2d physics library out there.
 
 ## Rapier2D 0.17.2
-
-<image controls autoplay muted style="width: 100%;" src="/assets/img/rapier-2d/banner.jpg">
-</image>
 
 Rapier is set of 2D and 3D physics engines focused on performance. They are written with the Rust programming language, by the [Dimforge](https://dimforge.com) organization. It is forever free and open-source! It is a relatively new contender, with only about 3 years since it was created.
 
@@ -198,7 +188,7 @@ Notes:
 
 Note:
 
-- missing spring joint.
+- Missing spring joint.
 - The stackability might be improved when warmstarter is implemented.
 
 
