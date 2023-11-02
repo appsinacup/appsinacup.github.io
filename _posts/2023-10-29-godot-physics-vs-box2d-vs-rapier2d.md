@@ -46,24 +46,7 @@ As it's expected, Godot Physics 2D has most of the node features, as it is the o
 
 # 3. Performance
 
-The project used is the [appsinacup/benchmark](https://github.com/appsinacup/benchmark). The steps for changing the physics backend is done by using the options menu from Godot.
-
-These are the simulation parameters used in all physics engines:
-
-|Parameter|Godot Physics 2D|Box2D|Rapier2D|
-|-|-|-|-|
-|Timestep length|0.016|0.016|0.016|
-|Number of velocity iterations|-|8|19|
-|Number of position iterations|16|3|-|
-|Number of velocity friction iterations|-|-|27|
-|Number of stabilization iterations|-|-|1|
-|Number of threads|1|1|1|
-
-* Note: These are the **plugin** default values for all libraries. The libraries themselves have other defaults. Also, not all libraries have the same number of parameters
-
-The machine used in this benchmark:
-
-- A MacBook Air with M1 (plugged to a power outlet).
+The project used is the [appsinacup/benchmark](https://github.com/appsinacup/benchmark). The steps for changing the physics backend is done by using the options menu from Godot. The default values from plugins are used.
 
 ## 3.1 Falling Circles
 
