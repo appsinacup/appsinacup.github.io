@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Godot Physics 4.2 vs Box 2D 2.4.1 vs Rapier 2D 0.17.2
+title: Godot Physics (4.2) vs Box 2D (2.4.1) vs Rapier 2D (0.17.2)
 tag: rapier2d, box2d
 ---
 <!-- [Attributes by Finsweet] Auto Video -->
