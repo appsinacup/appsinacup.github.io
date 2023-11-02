@@ -44,6 +44,10 @@ As it's expected, Godot Physics 2D has most of the node features, as it is the o
 ✅ - Implemented
 ❌ - Missing
 
+|1st|2nd|3rd|
+|-|-|-|
+|**Rapier2D**|Godot Physics 2D|Box2D|
+
 # 3. Performance
 
 The project used is the [appsinacup/benchmark](https://github.com/appsinacup/benchmark). The steps for changing the physics backend is done by using the options menu from Godot. The default values from plugins are used.
@@ -61,7 +65,7 @@ In this benchmark, we keep adding falling circles until the fps drops or stabili
 
 |1st|2nd|3rd|
 |-|-|-|
-|Rapier2D|Godot Physics 2D|Box2D|
+|**Rapier2D**|Godot Physics 2D|Box2D|
 
 ## 3.2 Falling Boxes
 
@@ -76,7 +80,7 @@ In this benchmark, we keep adding falling boxes until the fps drops or stability
 
 |1st|2nd|3rd|
 |-|-|-|
-|Rapier2D|Godot Physics 2D|Box2D|
+|**Rapier2D**|Godot Physics 2D|Box2D|
 
 ## 3.3 Pyramid of Boxes
 
@@ -93,7 +97,7 @@ In this benchmark, we keep increasing the height of the pyramid until it is unst
 
 |1st|2nd|3rd|
 |-|-|-|
-|Box2D|Rapier2D|Godot Physics 2D|
+|**Box2D**|Rapier2D|Godot Physics 2D|
 
 ## 3.4 Fabric of Pin Joints
 
@@ -111,7 +115,7 @@ In this benchmark, we keep increasing the width and size of the fabric until we 
 
 |1st|2nd|3rd|
 |-|-|-|
-|Box2D|Rapier2D|Godot Physics 2D|
+|**Box2D**|Rapier2D|Godot Physics 2D|
 
 ## 3.5 Fabric of Spring Joints
 
@@ -129,7 +133,7 @@ In this benchmark, we keep increasing the width and size of the fabric until we 
 
 |1st|2nd|3rd|
 |-|-|-|
-|Box2D|Godot Physics 2D|Rapier2D|
+|**Box2D**|Godot Physics 2D|Rapier2D|
 
 ## 3.6 Stack of Boxes
 
@@ -145,7 +149,7 @@ In this benchmark, we keep increasing the height of the pyramid until it is unst
 
 |1st|2nd|2nd|
 |-|-|-|
-|Box2D|Rapier2D|Godot Physics 2D|
+|**Box2D**|Rapier2D|Godot Physics 2D|
 
 # 4. Conclusion
 
@@ -163,7 +167,7 @@ Notes:
 
 |Performance|SIMD|Cross Platform Determinism|Stackability|Joint Stability|
 |-|-|-|-|-|
-|A little slower than godot.|No|No|Best|Best|
+|A little slower than godot.|No|No|**Best**|**Best**|
 
 Notes:
 
@@ -173,7 +177,7 @@ Notes:
 
 |Performance|SIMD|Cross Platform Determinism|Stackability|Joint Stability|
 |-|-|-|-|-|
-|Best, about 2x,3x faster than competition|Yes|Yes|Better than Godot, but not best|Better than Godot, but not best|
+|**Best, about 2x,3x faster than competition**|**Yes**|**Yes**|Better than Godot, but not best|Better than Godot, but not best|
 
 Note:
 
