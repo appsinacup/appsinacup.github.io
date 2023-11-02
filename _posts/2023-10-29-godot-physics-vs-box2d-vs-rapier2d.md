@@ -150,11 +150,45 @@ In this benchmark, we keep increasing the height of the pyramid until it is unst
 
 # Conclusion
 
-Rapier (0.17.2) is much faster than the competition, has simd and cross platform determinism, but it's not doing so well in stackability (can be improved by increasing simulation parameters). This is because it is missing warmstart feature. When/if that is added, the stackability component should improve. On the things it is missing, it doesn't have DampedSpringJoint2D, as the library is missing a spring joint implementation.
+## Rapier (0.17.2)
 
-Box2D (2.4.1) on the other hand, while not having the best performance, it has really good stackability. On the things it is missing, it's implementation of CharacterBody2D.move_and_slide is very jittery (this does not reflect on the libray but on me, the one who wrote the wrapper that integrates Box2D).
+Pros:
 
-Godot Physics 2D (4.2) has also good performance on numbers, but in reality after a certain amount of objects, it starts to jitter a lot, making it completely unusable, even if it's fast (eg. objects pass through things and other bad things)
+- fastest out of all in performance tests.
+- has simd and cross platform determinism.
+- better stackability than godot, but not the best.
+- better joint stability than godot, but not the best.
+
+Cons:
+
+- missing spring joint.
+
+Note:
+
+The stackability might be improved when warmstarter is implemented.
+
+## Box2D (2.4.1)
+
+- performance a little bit worse than godot.
+- best stackability
+- best joint stability
+- best
+
+Notes:
+
+- CharacterBody2D.move_and_slide implementation is very jittery (this does not reflect on the libray but on me, the one who wrote the wrapper that integrates Box2D).
+
+## Godot Physics 2D (4.2)
+
+Pros:
+
+- has also good performance on numbers
+
+Cons:
+
+- in reality after a certain amount of objects, it starts to jitter a lot, making it completely unusable (eg. objects pass through things and other bad things)
+- stability last place
+- stackability last place
 
 ---
 
