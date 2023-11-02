@@ -182,7 +182,8 @@ Notes:
 
 Pros:
 
-- has also good performance on numbers
+- has also good performance on numbers.
+- performs ok for small amount of objects.
 
 Cons:
 
