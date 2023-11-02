@@ -6,23 +6,23 @@ tag: rapier2d, box2d
 <!-- [Attributes by Finsweet] Auto Video -->
 <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>
 
-# Introduction of each framework
+# 1. Introduction of each framework
 
 This post will focus on comparing each physics engine as a `Physics Server` in Godot, so they both have to implement the same API. When refering if a physics engine has a feature or not, I will refer to the Godot Asset that implements that physics engine (eg. Godot Box2D and Godot Rapier2D).
 
-## Godot Physics 2D 4.2
+## 1.1 Godot Physics 2D 4.2
 
 The [Godot Engine](https://godotengine.org) is a free, all-in-one, cross-platform game engine that makes it easy for you to create 2D and 3D games. So it's no surprise it also has a physics engine that works great for most use cases.
 
-## Box2D 2.4.1
+## 1.2 Box2D 2.4.1
 
 Box2D is a free 2D open source physics engine for games and published under MIT license. It is written by [Erin Catto](https://box2d.org) and is one of the oldest (more than 15 years) and most stable 2d physics library out there.
 
-## Rapier2D 0.17.2
+## 1.3 Rapier2D 0.17.2
 
 Rapier is set of 2D and 3D physics engines focused on performance. They are written with the Rust programming language, by the [Dimforge](https://dimforge.com) organization. It is forever free and open-source! It is a relatively new contender, with only about 3 years since it was created.
 
-# Features
+# 2. Features
 
 As it's expected, Godot Physics 2D has most of the node features, as it is the one defining the API for the other two.
 
@@ -38,7 +38,7 @@ As it's expected, Godot Physics 2D has most of the node features, as it is the o
 ✅ - Implemented
 ❌ - Missing
 
-# Performance
+# 3. Performance
 
 The project used is the [appsinacup/benchmark](https://github.com/appsinacup/benchmark). The steps for changing the physics backend is done by using the options menu from Godot.
 
@@ -59,7 +59,7 @@ The machine used in this benchmark:
 
 - A MacBook Air with M1 (plugged to a power outlet).
 
-## Falling Circles
+## 3.1 Falling Circles
 
 <video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/benchmark/falling_circles.webm">
@@ -74,7 +74,7 @@ In this benchmark, we keep adding falling circles until the fps drops or stabili
 |-|-|-|
 |Rapier2D|Godot Physics 2D|Box2D|
 
-## Falling Boxes
+## 3.2 Falling Boxes
 
 <video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/benchmark/falling_rectangles.webm">
@@ -89,7 +89,7 @@ In this benchmark, we keep adding falling boxes until the fps drops or stability
 |-|-|-|
 |Rapier2D|Godot Physics 2D|Box2D|
 
-## Pyramid of Boxes
+## 3.3 Pyramid of Boxes
 
 <video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/benchmark/pyramid.webm">
@@ -106,7 +106,7 @@ In this benchmark, we keep increasing the height of the pyramid until it is unst
 |-|-|-|
 |Box2D|Rapier2D|Godot Physics 2D|
 
-## Fabric of Pin Joints
+## 3.4 Fabric of Pin Joints
 
 <video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/benchmark/fabric.webm">
@@ -124,7 +124,7 @@ In this benchmark, we keep increasing the width and size of the fabric until we 
 |-|-|-|
 |Box2D|Rapier2D|Godot Physics 2D|
 
-## Fabric of Spring Joints
+## 3.5 Fabric of Spring Joints
 
 <video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/benchmark/fabric_soft.webm">
@@ -142,7 +142,7 @@ In this benchmark, we keep increasing the width and size of the fabric until we 
 |-|-|-|
 |Box2D|Godot Physics 2D|Rapier2D|
 
-## Stack of Boxes
+## 3.6 Stack of Boxes
 
 <video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/benchmark/stack.webm">
@@ -158,9 +158,9 @@ In this benchmark, we keep increasing the height of the pyramid until it is unst
 |-|-|-|
 |Box2D|Rapier2D|Godot Physics 2D|
 
-# Conclusion
+# 4. Conclusion
 
-## Godot Physics 2D (4.2)
+## 4.1 Godot Physics 2D (4.2)
 
 |Performance|SIMD|Cross Platform Determinism|Stackability|Joint Stability|
 |-|-|-|-|-|
@@ -170,7 +170,7 @@ Notes:
 
 - in reality after a certain amount of objects, it starts to jitter a lot, making it completely unusable (eg. objects pass through things and other bad things).
 
-## Box2D (2.4.1)
+## 4.2 Box2D (2.4.1)
 
 |Performance|SIMD|Cross Platform Determinism|Stackability|Joint Stability|
 |-|-|-|-|-|
@@ -180,7 +180,7 @@ Notes:
 
 - CharacterBody2D.move_and_slide implementation is very jittery (this does not reflect on the libray but on me, the one who wrote the wrapper that integrates Box2D).
 
-## Rapier (0.17.2)
+## 4.3 Rapier (0.17.2)
 
 |Performance|SIMD|Cross Platform Determinism|Stackability|Joint Stability|
 |-|-|-|-|-|
