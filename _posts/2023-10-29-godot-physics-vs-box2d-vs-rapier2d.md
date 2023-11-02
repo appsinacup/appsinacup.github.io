@@ -75,7 +75,7 @@ The machine used in this benchmark:
 
 ## Falling Circles
 
-<video controls autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/benchmark/falling_circles.webm">
 </video>
 
@@ -86,7 +86,7 @@ In this benchmark, we keep adding falling circles until the fps drops or stabili
 
 ## Falling Boxes
 
-<video controls autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/benchmark/falling_rectangles.webm">
 </video>
 
@@ -97,7 +97,7 @@ In this benchmark, we keep adding falling boxes until the fps drops or stability
 
 ## Pyramid of Boxes
 
-<video controls autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/benchmark/pyramid.webm">
 </video>
 
@@ -110,7 +110,7 @@ In this benchmark, we keep increasing the height of the pyramid until it is unst
 
 ## Fabric of Pin Joints
 
-<video controls autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/benchmark/fabric.webm">
 </video>
 
@@ -124,7 +124,7 @@ In this benchmark, we keep increasing the width and size of the fabric until we 
 
 ## Fabric of Spring Joints
 
-<video controls autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/benchmark/fabric_soft.webm">
 </video>
 
@@ -138,7 +138,7 @@ In this benchmark, we keep increasing the width and size of the fabric until we 
 
 ## Stack of Boxes
 
-<video controls autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/benchmark/stack.webm">
 </video>
 

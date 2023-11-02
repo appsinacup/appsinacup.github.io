@@ -13,10 +13,10 @@ tag: box2d
 
 30 boxes stacked on top of each other.
 
-<video controls autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/box-stack-box2d.webm">
 </video>
-<video controls autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/box-stack-godot.webm">
 </video>
 
@@ -24,10 +24,10 @@ tag: box2d
 
 Pyramid with height of 50, each having 2 * level + 1 boxes.
 
-<video controls autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/pyramid-box2d.webm">
 </video>
-<video controls autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/pyramid-godot.webm">
 </video>
 
@@ -35,10 +35,10 @@ Pyramid with height of 50, each having 2 * level + 1 boxes.
 
 20 boxes and circles falling on top of each other.
 
-<video controls autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/stack-fall-box2d.webm">
 </video>
-<video controls autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/stack-fall-godot.webm">
 </video>
 
@@ -46,10 +46,10 @@ Pyramid with height of 50, each having 2 * level + 1 boxes.
 
 60 pin joints tied togheter
 
-<video controls autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/pin-joint-box2d.webm">
 </video>
-<video controls autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/pin-joint-godot.webm">
 </video>
 
@@ -58,9 +58,9 @@ Pyramid with height of 50, each having 2 * level + 1 boxes.
 
 60 spring joints tied togheter
 
-<video controls autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/spring-joint-box2d.webm">
 </video>
-<video controls autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/spring-joint-godot.webm">
 </video>
