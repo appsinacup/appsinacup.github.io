@@ -150,53 +150,37 @@ In this benchmark, we keep increasing the height of the pyramid until it is unst
 
 # Conclusion
 
-## Rapier (0.17.2)
+## Godot Physics 2D (4.2)
 
-Pros:
+|Performance|SIMD|Cross Platform Determinism|Stackability|Joint Stability|
+|-|-|-|-|-|
+|performs ok for small amount of objects.|No|No|Last Place|Last Place|
 
-- fastest out of all in performance tests.
-- has simd and cross platform determinism.
-- better stackability than godot, but not the best.
-- better joint stability than godot, but not the best.
+Notes:
 
-Cons:
-
-- missing spring joint.
-
-Note:
-
-The stackability might be improved when warmstarter is implemented.
+- in reality after a certain amount of objects, it starts to jitter a lot, making it completely unusable (eg. objects pass through things and other bad things).
 
 ## Box2D (2.4.1)
 
-Pros:
-
-- best overall stability.
-- best stackability.
-- best joint stability.
-
-Cons:
-
-- performance a little bit slower than godot.
-- missing simd and cross platform determinism.
+|Performance|SIMD|Cross Platform Determinism|Stackability|Joint Stability|
+|-|-|-|-|-|
+|a little slower than godot.|No|No|Best|Best|
 
 Notes:
 
 - CharacterBody2D.move_and_slide implementation is very jittery (this does not reflect on the libray but on me, the one who wrote the wrapper that integrates Box2D).
 
-## Godot Physics 2D (4.2)
+## Rapier (0.17.2)
 
-Pros:
+|Performance|SIMD|Cross Platform Determinism|Stackability|Joint Stability|
+|-|-|-|-|-|
+|Best|Yes|Yes|Better than Godot, but not best|Better than Godot, but not best|
 
-- has also good performance on numbers.
-- performs ok for small amount of objects.
+Note:
 
-Cons:
+- missing spring joint.
+- The stackability might be improved when warmstarter is implemented.
 
-- in reality after a certain amount of objects, it starts to jitter a lot, making it completely unusable (eg. objects pass through things and other bad things).
-- stability last place.
-- stackability last place.
-- missing simd and cross platform determinism.
 
 ---
 
