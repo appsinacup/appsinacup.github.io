@@ -35,7 +35,6 @@ As it's expected, Godot Physics 2D has most of the node features, as it is the o
 |Godot Feature|Dynamics features|Godot Physics 2D|Box2D|Rapier2D|
 |-|-|-|-|-|
 |DampedSpringJoint2D|A spring joint|✅|✅|❌|
-|CharacterBody2D.move_and_slide|The logic for moving|✅|❌|✅|
 |SIMD|Single instruction, multiple data|❌|❌|✅|
 |Cross-platform determinism|The simulation would run the same on any platform|❌|❌|✅|
 |64-bits physics|Large game worlds support|✅|❌|✅|
@@ -168,10 +167,6 @@ Notes:
 |Performance|SIMD|Cross Platform Determinism|Stackability|Joint Stability|
 |-|-|-|-|-|
 |A little slower than godot.|No|No|**Best**|**Best**|
-
-Notes:
-
-- CharacterBody2D.move_and_slide implementation is very jittery (this does not reflect on the libray but on me, the one who wrote the wrapper that integrates Box2D).
 
 ## 4.3 Rapier (0.17.2)
 
