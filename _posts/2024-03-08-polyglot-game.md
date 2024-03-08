@@ -12,7 +12,7 @@ Polyglot (person who knows several languages) is a mobile and web language learn
 
 Pick a language you know and one you want to learn. All the words are taken from [wiktionary.org](https://en.wiktionary.org) and processed using [kaikki.org](https://kaikki.org/dictionary/) version.
 
-<video controls loop autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="height: 100vh;">
     <source type="video/webm" src="/assets/vid/polyglot/select-language.webm">
 </video>
 
@@ -20,7 +20,7 @@ Pick a language you know and one you want to learn. All the words are taken from
 
 All the assets used are made by [PixelFrog](https://pixelfrog-assets.itch.io).
 
-<video controls loop autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="height: 100vh;">
     <source type="video/webm" src="/assets/vid/polyglot/select-learner.webm">
 </video>
 
@@ -28,7 +28,7 @@ All the assets used are made by [PixelFrog](https://pixelfrog-assets.itch.io).
 
 The polyglot pirates have to catch the thieves who stole their treasure. Match words in order to gain speed and attack with the canon.
 
-<video controls loop autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="height: 100vh;">
     <source type="video/webm" src="/assets/vid/polyglot/intro.webm">
 </video>
 
@@ -36,7 +36,7 @@ The polyglot pirates have to catch the thieves who stole their treasure. Match w
 
 You can be the pirate that navigates the ship. In this case you have to steer the ship from obstacles and make it go fast in order to catch the thieves:
 
-<video controls loop autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="height: 100vh;">
     <source type="video/webm" src="/assets/vid/polyglot/gameplay-navigate.webm">
 </video>
 
