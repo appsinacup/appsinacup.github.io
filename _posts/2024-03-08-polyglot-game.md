@@ -24,6 +24,14 @@ All the assets used are made by [PixelFrog](https://pixelfrog-assets.itch.io).
     <source type="video/webm" src="/assets/vid/polyglot/select-learner.webm">
 </video>
 
+## Lobby - Multiplayer Join
+
+If you want to play with other people, the lobby is the part to do it. Here you can also select what stage you want to play:
+
+<video controls loop autoplay muted style="height: 100vh;">
+    <source type="video/webm" src="/assets/vid/polyglot/lobby.webm">
+</video>
+
 ## 1. Treasure Hunt
 
 The polyglot pirates have to catch the thieves who stole their treasure. Match words in order to gain speed and attack with the canon.
@@ -32,12 +40,10 @@ The polyglot pirates have to catch the thieves who stole their treasure. Match w
     <source type="video/webm" src="/assets/vid/polyglot/intro.webm">
 </video>
 
-## Gameplay - Word Match
+## Gameplay - Navigator
 
-You can be the pirate that navigates the ship. In this case you have to steer the ship from obstacles and make it go fast in order to catch the thieves:
+Steer the ship from obstacles and make it go fast in order to catch the thieves:
 
 <video controls loop autoplay muted style="height: 100vh;">
     <source type="video/webm" src="/assets/vid/polyglot/gameplay-navigate.webm">
 </video>
-
-Aside for words you are also given the parts of speech.
