@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Polyglot - Pirate Language Learning Game
+title: Polyglot Pirates - Co-op Language Learning Game
 tag: polyglot
 ---
 <!-- [Attributes by Finsweet] Auto Video -->
