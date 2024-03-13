@@ -46,6 +46,13 @@ The polyglot pirates have to catch the thieves who stole their treasure. Match w
     <source type="video/webm" src="/assets/vid/polyglot/intro.webm">
 </video>
 
+Do any mistake or be slow and the bomb will explode:
+
+<video controls loop autoplay muted style="height: 100vh;">
+    <source type="video/webm" src="/assets/vid/polyglot/bomb.webm">
+</video>
+
+
 ## Gameplay - Navigator
 
 Steer the ship from obstacles and make it go fast in order to catch the thieves:
