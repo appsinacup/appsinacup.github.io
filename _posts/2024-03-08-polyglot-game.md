@@ -18,6 +18,12 @@ Pick a language you know and one you want to learn. All the words are taken from
 
 ## Select Learner
 
+Learning is a personal thing, so you have to trust your polyglot pirate. Pick one you relate with:
+- Captain: The organized learner. Learns until he masters a language.
+- Clowny: The crazy learner, starts multiple languages at once.
+- Baldy: The learner who likes to talk even if he doesn't know. Learns by practice.
+- Brute: Spends time to memorize words before even trying to speak.
+
 All the assets used are made by [PixelFrog](https://pixelfrog-assets.itch.io).
 
 <video controls loop autoplay muted style="height: 100vh;">
