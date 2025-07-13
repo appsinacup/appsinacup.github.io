@@ -1,11 +1,7 @@
-- title: home
+- title: Home
   url: /
   external: false
 
-- title: posts
+- title: Blog
   url: /posts/
-  external: false
-
-- title: about
-  url: /about/
   external: false

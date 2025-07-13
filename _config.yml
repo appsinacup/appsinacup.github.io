@@ -1,9 +1,9 @@
 # Site settings
 title: Apps In A Cup # site title
 description: >- # site description
-  Apps In A Cup website. Developing plugins for Godot.
+  Apps In A Cup of Coffee.
 lang: en # default lang
-timezone: UTC+1 # set your timezone
+timezone: Europe/Madrid # set your timezone
 image: assets/img/favicon.png # This image used for Open Graph more info https://ogp.me/
 mode: dark # default theme "dark" | "light"
 
@@ -11,7 +11,7 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Apps In A Cup # author name
   bio: >- # tell to the world
-    Making SoftBody2D and Box2D plugins for Godot.
+    2D multiplayer games with Godot Engine.
   username: appsinacup # general username
   twitter: appsinacup # twitter username
   email: contact@appsinacup.com # email adress
