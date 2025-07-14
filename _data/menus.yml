@@ -9,3 +9,11 @@
 - title: Games
   url: /games/
   external: false
+
+- title: Services
+  url: /services/
+  external: false
+
+- title: Addons
+  url: /addons/
+  external: false
