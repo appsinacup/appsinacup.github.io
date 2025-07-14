@@ -11,7 +11,7 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Apps In A Cup # author name
   bio: >- # tell to the world
-    2D multiplayer games with Godot Engine.
+    2D Multiplayer Games with the Godot Engine.
   username: appsinacup # general username
   twitter: appsinacup # twitter username
   email: contact@appsinacup.com # email adress

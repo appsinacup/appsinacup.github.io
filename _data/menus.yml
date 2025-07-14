@@ -5,3 +5,7 @@
 - title: Blog
   url: /posts/
   external: false
+
+- title: Games
+  url: /games/
+  external: false
