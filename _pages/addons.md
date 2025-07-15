@@ -7,9 +7,7 @@ permalink: /addons/
 [Development](#a-development)
 
 1. [Godot SoftBody2D](#godot-softbody2d)
-
 2. [Godot Rapier Physics](#2-godot-rapier-physics)
-
 3. [Shared Menus](#3-shared-menus)
 
 [Release](#b-release)
@@ -53,6 +51,7 @@ Shared menus used in games.
 GitHub Action that sets up the Godot Engine for Windows, Linux and Mac.
 
 - [GitHub Repo](https://github.com/appsinacup/action_setup_godot)
+- [Article](https://appsinacup.com/setup-godot-action/)
 
 ![setup godot](https://raw.githubusercontent.com/appsinacup/action_setup_godot/main/docs/example.png)
 
@@ -60,9 +59,10 @@ GitHub Action that sets up the Godot Engine for Windows, Linux and Mac.
 
 Actions to build Godot game for all platforms.
 
-- [Github Repo](https://raw.githubusercontent.com/appsinacup/action_export_godot_game/main/docs/example.png)
+- [Github Repo](https://github.com/appsinacup/action_export_godot_game)
+- [Article](https://appsinacup.com/export-godot-game-action/)
 
-![export godot game](image.png)
+![export godot game](https://raw.githubusercontent.com/appsinacup/action_export_godot_game/main/docs/example.png)
 
 ### 3. Release Checklist
 
