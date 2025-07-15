@@ -4,6 +4,8 @@ title: Addons
 permalink: /addons/
 ---
 
+Addons in Godot from development to release.
+
 [Development](#a-development)
 
 1. [Godot SoftBody2D](#godot-softbody2d)
@@ -14,7 +16,8 @@ permalink: /addons/
 
 1. [Setup Godot Action](#1-setup-godot-action)
 2. [Export Godot Game Action](#2-export-godot-game-action)
-3. [Release Checklist](#3-release-checklist)
+3. [Deploy Godot Game Action](#3-deploy-godot-game-action)
+4. [Release Checklist](#4-release-checklist)
 
 ## Development
 
@@ -64,7 +67,22 @@ Actions to build Godot game for all platforms.
 
 ![export godot game](https://raw.githubusercontent.com/appsinacup/action_export_godot_game/main/docs/example.png)
 
-### 3. Release Checklist
+### 3. Deploy Godot Game Action
+
+Actions to deploy Godot game to:
+
+- itch.io
+- Play Store
+- iOS App Store
+- macOS App Store
+- Steam
+
+- [Github Repo](https://github.com/appsinacup/action_deploy_godot_game)
+- [Article](https://appsinacup.com/export-godot-game-action/)
+
+![deploy godot game](https://raw.githubusercontent.com/appsinacup/action_deploy_godot_game/refs/heads/main/docs/example.png)
+
+### 4. Release Checklist
 
 A checklist of things needed to do when releasing a game.
 
