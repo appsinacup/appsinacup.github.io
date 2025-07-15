@@ -4,7 +4,13 @@ title: Export Godot Game Action
 tag: action
 ---
 
+![export godot game](https://raw.githubusercontent.com/appsinacup/action_export_godot_game/main/docs/example.png)
+
 Reusable Action that builds a Godot game. These actions build and sign the games with the [Godot Engine](https://godotengine.org) of the version specified. It supports all platforms: desktop, mobile and web.
+
+You can find the action on [GitHub](https://github.com/appsinacup/action_export_godot_game).
+
+## How to use it
 
 Sample usage:
 ```yml
@@ -14,10 +20,6 @@ Sample usage:
     game-name: MyGame
     platform-name: Linux x86_64
 ```
-
-You can find the action on [GitHub](https://github.com/appsinacup/action_export_godot_game).
-
-## How to use it
 
 Complete usage on [appsinacup/project_godot_autobuild](https://github.com/appsinacup/project_godot_autobuild):
 
