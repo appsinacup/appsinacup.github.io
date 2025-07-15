@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Setup Godot Action
-tag: rapier2d
+tag: action
 ---
 
 <image controls autoplay muted style="width: 100%;" src="/assets/img/setup_godot/setup_godot_action.png">

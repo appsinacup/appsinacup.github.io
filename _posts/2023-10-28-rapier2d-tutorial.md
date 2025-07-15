@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rapier2D Tutorial
-tag: rapier2d
+tag: addon
 ---
 
 <image controls autoplay muted style="width: 100%;" src="/assets/img/rapier-2d/banner.jpg">

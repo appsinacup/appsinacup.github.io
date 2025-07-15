@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Polyglot Pirates - Co-op Language Learning Game
-tag: polyglot
+tag: game
 ---
 <!-- [Attributes by Finsweet] Auto Video -->
 <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>

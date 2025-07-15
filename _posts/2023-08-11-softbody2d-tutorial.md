@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SoftBody2D Tutorial
-tag: softbody2d
+tag: addon
 ---
 
 <image controls autoplay muted style="width: 100%;" src="/assets/img/softbody2d/banner.jpg">

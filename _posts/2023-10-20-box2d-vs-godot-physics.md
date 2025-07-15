@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Box2D vs Godot Physics
-tag: box2d
+tag: addon
 ---
 <!-- [Attributes by Finsweet] Auto Video -->
 <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Box2D Tutorial
-tag: box2d
+tag: addon
 ---
 
 <image controls autoplay muted style="width: 100%;" src="/assets/img/box2d/banner.jpg">
