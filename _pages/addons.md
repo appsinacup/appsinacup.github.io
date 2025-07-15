@@ -77,6 +77,8 @@ Actions to deploy Godot game to:
 - macOS App Store
 - Steam
 
+Read more:
+
 - [Github Repo](https://github.com/appsinacup/action_deploy_godot_game)
 - [Article](https://appsinacup.com/export-godot-game-action/)
 
