@@ -17,3 +17,7 @@
 - title: Addons
   url: /addons/
   external: false
+
+- title: Discord
+  url: https://discord.com/invite/56dMud8HYn
+  external: true
