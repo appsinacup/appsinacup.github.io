@@ -3,5 +3,9 @@ layout: page
 title: Games
 permalink: /games/
 ---
-<!-- Your games content goes here -->
-Welcome to the Games page!
+
+## 1. MMO Game with Minigames (WIP, title not decided)
+
+MMO Godot Game using [Tiny Lobby](https://github.com/appsinacup/tiny_lobby) where you can play minigames with other people while walking around the map.
+
+![lobby](https://github.com/appsinacup/tiny_lobby/raw/main/docs/example.gif)
