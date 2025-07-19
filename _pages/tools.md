@@ -18,10 +18,11 @@ Tools for the Godot Engine from development to infrastructure and release.
 
 [Release](#release)
 
-1. [Setup Godot Action](#1-setup-godot-action)
-2. [Export Godot Game Action](#2-export-godot-game-action)
-3. [Deploy Godot Game Action](#3-deploy-godot-game-action)
-4. [Release Checklist](#4-release-checklist)
+1. [Build Godot Action](#1-build-godot-action)
+2. [Setup Godot Action](#2-setup-godot-action)
+3. [Export Godot Game Action](#3-export-godot-game-action)
+4. [Deploy Godot Game Action](#4-deploy-godot-game-action)
+5. [Release Checklist](#5-release-checklist)
 
 ## Development
 
@@ -75,16 +76,25 @@ This is the C++ implementation of the Lobby Websocket Server. It starts a websoc
 
 ## Release
 
-### 1. Setup Godot Action
+### 1. Build Godot Action
 
-GitHub Action that sets up the Godot Engine for Windows, Linux and Mac.
+GitHub Action that builds the Godot Engine for Windows, Linux and Mac, as well as templates.
+
+- [GitHub Repo](https://github.com/appsinacup/action_godot_builder)
+- [Article](https://appsinacup.com/build-godot-action/)
+
+![build godot](https://github.com/appsinacup/action_godot_builder/raw/main/docs/inputs.png)
+
+### 2. Setup Godot Action
+
+GitHub Action that sets up the Godot Engine for Windows, Linux and Mac, as well as templates.
 
 - [GitHub Repo](https://github.com/appsinacup/action_setup_godot)
 - [Article](https://appsinacup.com/setup-godot-action/)
 
 ![setup godot](https://raw.githubusercontent.com/appsinacup/action_setup_godot/main/docs/example.png)
 
-### 2. Export Godot Game Action
+### 3. Export Godot Game Action
 
 Actions to build Godot game for all platforms.
 
@@ -93,7 +103,7 @@ Actions to build Godot game for all platforms.
 
 ![export godot game](https://raw.githubusercontent.com/appsinacup/action_export_godot_game/main/docs/example.png)
 
-### 3. Deploy Godot Game Action
+### 4. Deploy Godot Game Action
 
 Actions to deploy Godot game to:
 
@@ -110,7 +120,7 @@ Read more:
 
 ![deploy godot game](https://raw.githubusercontent.com/appsinacup/action_deploy_godot_game/refs/heads/main/docs/example.png)
 
-### 4. Release Checklist
+### 5. Release Checklist
 
 A checklist of things needed to do when releasing a game.
 
