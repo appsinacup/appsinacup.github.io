@@ -47,6 +47,15 @@ Shared menus used in games.
 
 ![menus](https://raw.githubusercontent.com/appsinacup/addon_shared_menus/main/docs/shared_menus.gif)
 
+### 4. Tiny Lobby Client
+
+- [GitHub](https://github.com/appsinacup/addon_tiny_lobby_client)
+- [Server](https://github.com/appsinacup/tiny_lobby)
+
+![lobby](https://github.com/appsinacup/tiny_lobby/raw/main/docs/example.gif)
+
+The client that connects to the Tiny Client Websocket Server.
+
 ## Release
 
 ### 1. Setup Godot Action
