@@ -10,12 +10,8 @@
   url: /games/
   external: false
 
-- title: Services
-  url: /services/
-  external: false
-
-- title: Addons
-  url: /addons/
+- title: Tools
+  url: /tools/
   external: false
 
 - title: Discord

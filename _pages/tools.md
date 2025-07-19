@@ -1,18 +1,22 @@
 ---
 layout: page
-title: Addons
-permalink: /addons/
+title: Tools
+permalink: /tools/
 ---
 
-Addons in Godot from development to release.
+Tools for the Godot Engine from development to infrastructure and release.
 
-[Development](#a-development)
+[Development](#development)
 
 1. [Godot SoftBody2D](#godot-softbody2d)
 2. [Godot Rapier Physics](#2-godot-rapier-physics)
 3. [Shared Menus](#3-shared-menus)
 
-[Release](#b-release)
+[Infrastructure](#infrastructure)
+
+1. [Tiny Lobby](#1-tiny-lobby)
+
+[Release](#release)
 
 1. [Setup Godot Action](#1-setup-godot-action)
 2. [Export Godot Game Action](#2-export-godot-game-action)
@@ -55,6 +59,19 @@ Shared menus used in games.
 ![lobby](https://github.com/appsinacup/tiny_lobby/raw/main/docs/example.gif)
 
 The client that connects to the Tiny Client Websocket Server.
+
+## Infrastructure
+
+
+### 1. Tiny Lobby
+
+- [GitHub](https://github.com/appsinacup/tiny_lobby)
+- [Documentation](https://github.com/appsinacup/documentation_lobby)
+- [Client Addon](https://github.com/appsinacup/addon_tiny_lobby_client)
+
+![lobby](https://github.com/appsinacup/tiny_lobby/raw/main/docs/example.gif)
+
+This is the C++ implementation of the Lobby Websocket Server. It starts a websocket server and has backend scripting in Luau and AngelScript.
 
 ## Release
 
