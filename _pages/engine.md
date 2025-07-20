@@ -49,7 +49,7 @@ Every new feature/optimization adds 1 new build combination. It would be *combin
 
 - Eg. for 2 it would be 2 x 2 = 4
 - Eg. for 3 it would be 3 x 3 = 9
-- Eg. for 4 it would be 3 x 3 = 16 (We are here now)
+- Eg. for 4 it would be 4 x 4 = 16 (We are here now)
 - Eg. for 5 it would be 5 x 5 = 25
 - Eg. for 6 it would be 6 x 6 = 36
 - Eg. for 7 it would be 7 × 7 = 49  
