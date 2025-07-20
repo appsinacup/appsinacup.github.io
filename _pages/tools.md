@@ -68,6 +68,7 @@ The client that connects to the Tiny Client Websocket Server.
 
 - [GitHub](https://github.com/appsinacup/tiny_lobby)
 - [Documentation](https://github.com/appsinacup/documentation_lobby)
+- [Article](https://appsinacup.com/tiny-lobby/)
 - [Client Addon](https://github.com/appsinacup/addon_tiny_lobby_client)
 
 ![lobby](https://github.com/appsinacup/tiny_lobby/raw/main/docs/example.gif)
