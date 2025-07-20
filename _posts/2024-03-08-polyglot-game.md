@@ -1,5 +1,6 @@
 ---
 layout: post
+author: dragos
 title: Polyglot Pirates - Co-op Language Learning Game
 tag: game
 ---

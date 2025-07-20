@@ -1,5 +1,6 @@
 ---
 layout: post
+author: dragos
 title: Box2D Tutorial
 tag: addon
 ---

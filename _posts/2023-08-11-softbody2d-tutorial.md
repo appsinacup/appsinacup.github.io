@@ -1,7 +1,10 @@
 ---
 layout: post
+author: dragos
 title: SoftBody2D Tutorial
 tag: addon
+excerpt: 2D Softbody Plugin for Godot 4.x
+image: /assets/img/softbody2d/banner.jpg
 ---
 
 <image controls autoplay muted style="width: 100%;" src="/assets/img/softbody2d/banner.jpg">

@@ -1,5 +1,6 @@
 ---
 layout: post
+author: dragos
 title: Rapier2D Tutorial
 tag: addon
 ---

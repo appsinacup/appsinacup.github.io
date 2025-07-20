@@ -1,5 +1,6 @@
 ---
 layout: post
+author: dragos
 title: Setup Godot Action
 tag: action
 ---
