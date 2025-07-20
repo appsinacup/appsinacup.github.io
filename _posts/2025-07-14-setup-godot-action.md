@@ -8,6 +8,8 @@ tag: action
 <image controls autoplay muted style="width: 100%;" src="/assets/img/setup_godot/setup_godot_action.png">
 </image>
 
+GitHub Action that builds the Godot Engine for Windows, Linux and Mac, as well as templates.
+
 You can find the action on [GitHub](https://github.com/appsinacup/action_setup_godot).
 
 ## How to use it
