@@ -14,4 +14,4 @@ Backend Services for multiplayer games.
 
 ![lobby](https://github.com/appsinacup/tiny_lobby/raw/main/docs/example.gif)
 
-This is the C++ implementation of the Lobby Websocket Server. It starts a websocket server and has backend scripting in Luau and AngelScript.
+Multiplayer C++ Lobby Server with login for create / join / find lobbies.. It starts a websocket server and has backend scripting in Luau and AngelScript.
