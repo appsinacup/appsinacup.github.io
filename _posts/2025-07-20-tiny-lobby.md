@@ -7,7 +7,7 @@ tag: server
 <image controls autoplay muted style="width: 100%;" src="https://github.com/appsinacup/tiny_lobby/raw/main/docs/example.gif">
 </image>
 
-This is the C++ implementation of the Lobby Websocket Server. It starts a websocket server and has backend scripting in Luau and AngelScript. You can it on [GitHub](https://github.com/appsinacup/tiny_lobby).
+This is the C++ implementation of the Lobby Websocket Server. It starts a websocket server and has backend scripting in Luau and AngelScript. Check it on [GitHub](https://github.com/appsinacup/tiny_lobby).
 
 ## How to use it
 
@@ -21,7 +21,7 @@ folder=my_folder
 
 For `12345678-1234-1234-1234-1234567890123` put any guid that is unique. For `lobby_control` select either `lua` or `angelscript`.
 
-Then, create a folder with the folder name you specified inside `scripts/folder`. Inside it put either a `main.lua` file or a `main.as` file (depending on if you selected `lua` or `angelscript`).
+Then, create a folder with the folder name you specified inside `scripts`. Inside it put either a `main.lua` file or a `main.as` file (depending on if you selected `lua` or `angelscript`).
 
 The structure should looks like this:
 
@@ -55,5 +55,7 @@ Starting webserver without SSL
 Listening on port 8080
 Loading game from world with id 12345678-1234-1234-1234-1234567890123
 ```
+
+Now the server is up and the `echo` function can be called.
 
 Next, check out the [Documentation](https://github.com/appsinacup/documentation_lobby).
