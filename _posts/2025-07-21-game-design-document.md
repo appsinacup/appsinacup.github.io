@@ -33,7 +33,7 @@ The game will be massively multiplayer online with up to 100 players visible on 
 The game is set in an amusement park world.
 - could be a series of different themes
 
-![theme](theme.png)
+![theme](/assets/img/minigame/theme.png)
 
 ## Gameplay
 
