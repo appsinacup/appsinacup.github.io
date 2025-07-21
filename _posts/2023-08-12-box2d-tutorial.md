@@ -3,7 +3,6 @@ layout: post
 author: dragos
 title: Box2D Tutorial
 tag: addon
-excerpt: Tutorial for the box2d addon
 ---
 
 <image controls autoplay muted style="width: 100%;" src="/assets/img/box2d/banner.jpg">

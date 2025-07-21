@@ -3,8 +3,6 @@ layout: post
 author: dragos
 title: Tiny Lobby
 tag: server
-excerpt: C++ scriptable multiplayer lobby server.
-image: https://github.com/appsinacup/tiny_lobby/raw/main/docs/example.gif
 ---
 
 <image controls autoplay muted style="width: 100%;" src="https://github.com/appsinacup/tiny_lobby/raw/main/docs/example.gif">

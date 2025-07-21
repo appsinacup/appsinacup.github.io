@@ -3,7 +3,6 @@ layout: post
 author: dragos
 title: Box2D vs Godot Physics
 tag: addon
-excerpt: Comparison between two physics engines.
 ---
 <!-- [Attributes by Finsweet] Auto Video -->
 <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>
