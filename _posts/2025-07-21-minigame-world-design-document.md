@@ -25,6 +25,8 @@ The heart of the game are the minigames. In each minigame players select an avat
 
 The game will be massively multiplayer online with up to 100 players visible on screen at a time.
 
+In case of game ever going out in 10-20 years, a copy of the server and instructions on how to run will be provided to the community.
+
 ## Plot and Setting
 
 The world is set in an amusement park with 3 main zones:
