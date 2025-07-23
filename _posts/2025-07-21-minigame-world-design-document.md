@@ -45,11 +45,11 @@ The world is set in an amusement park with 3 main zones:
 
 ## Gameplay
 
-The world map will contain collectables that will be in areas that are hard to reach. In order to reach a new area, the player has the option to walk there, or teleport. When entering a game zone, there will be a sliding menu from right to left where you can select to join a game.
+The world map will contain collectables that will be in areas that are harder to reach. When entering a new game zone, there will be a sliding menu from right to left where you can select to join a game.
 
 ![game_menu](/assets/img/minigame/game_menu.png)
 
-There will be several powerups which can be earned that give power to the player while on the world map:
+There will be several powerups which can be earned that give special abilities to the player while traveling on the world map:
 
 - Jump further (shoes)
 - Fly for a short duration (wings)
@@ -59,6 +59,10 @@ There will be several powerups which can be earned that give power to the player
 - Telephone (teleport to a friend)
 - Sticky Note (teleport back to it)
 - Binoculars (play any game from anywhere)
+
+<video controls loop autoplay muted style="width: 100%;">
+    <source type="video/webm" src="/assets/vid/games/minigame/jump.webm">
+</video>
 
 Throughout the world, there will be different tiles that form the world:
 
