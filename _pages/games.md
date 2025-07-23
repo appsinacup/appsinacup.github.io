@@ -14,6 +14,7 @@ permalink: /games/
 *Minigame World* is a social massively multiplayer world with *minigames*, playable on Web, Desktop and Mobile (Discord, Steam, Itch). The style is watercolor, and you walk and play minigames (chess, word match, hangman, etc.) with focus on customization and socializing.
 
 - [Design Document](https://appsinacup.com/minigame-world-design-document/)
+- [ItchIo Page](https://appsinacup.itch.io/world)
 
 Main World Powerups:
 
