@@ -64,7 +64,7 @@ There will be several powerups which can be earned that give special abilities t
     <source type="video/webm" src="/assets/vid/games/minigame/jump.webm">
 </video>
 
-Throughout the world, there will be different tiles that form the world:
+Throughout the world, there will be different tiles that in the world:
 
 - Ice block (slippery) + direction change block
 - Breakable block (need hammer to break)
