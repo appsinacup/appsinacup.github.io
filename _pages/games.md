@@ -7,7 +7,7 @@ permalink: /games/
 <!-- [Attributes by Finsweet] Auto Video -->
 <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>
 
-## 1. Minigame World
+## Minigame World
 
 ![minigame world logo](/assets/img/minigame/minigame_world_logo.png)
 
@@ -16,7 +16,16 @@ permalink: /games/
 - [Design Document](https://appsinacup.com/minigame-world-design-document/)
 - [ItchIo Page](https://appsinacup.itch.io/world)
 
-Main World Powerups:
+### Minigames:
+
+- TicTacToe: Play 1v1 TicTacToe.
+- Chess: Play 1v1 Chess.
+- Hangman: Play hangman with up to 2-99 people.
+- Word Match: Play word match with up to 2-99 people.
+- Memory Card Game: Play 1v1 memory card game.
+- GoFish: Play GoFish against 2-5 people.
+
+### World Powerups
 
 - Jump further (shoes)
 - Fly for a short duration (wings)
@@ -31,19 +40,9 @@ Main World Powerups:
     <source type="video/webm" src="/assets/vid/games/minigame/jump.webm">
 </video>
 
-Main World Blocks:
+### World Blocks:
 
 - Ice block (slippery) + direction change block
 - Breakable block (need hammer to break)
 - Door (need key to open)
 - Trigger Block (open door)
-
-
-Minigames:
-
-- TicTacToe: Play 1v1 TicTacToe.
-- Chess: Play 1v1 Chess.
-- Hangman: Play hangman with up to 2-99 people.
-- Word Match: Play word match with up to 2-99 people.
-- Memory Card Game: Play 1v1 memory card game.
-- GoFish: Play GoFish against 2-5 people.
