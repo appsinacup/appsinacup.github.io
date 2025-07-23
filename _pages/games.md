@@ -4,12 +4,45 @@ title: Games
 permalink: /games/
 ---
 
-## 1. Minigame World
+<!-- [Attributes by Finsweet] Auto Video -->
+<script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>
 
-- [Design Document](https://appsinacup.com/minigame-world-design-document/)
+## 1. Minigame World
 
 ![minigame world logo](/assets/img/minigame/minigame_world_logo.png)
 
-MMO Godot Game using [Tiny Lobby](https://github.com/appsinacup/tiny_lobby) where you can play minigames with other people while walking around the map.
+*Minigame World* is a social massively multiplayer world with *minigames*, playable on Web, Desktop and Mobile (Discord, Steam, Itch). The style is watercolor, and you walk and play minigames (chess, word match, hangman, etc.) with focus on customization and socializing.
 
-![lobby](https://github.com/appsinacup/tiny_lobby/raw/main/docs/example.gif)
+- [Design Document](https://appsinacup.com/minigame-world-design-document/)
+
+Main World Powerups:
+
+    - Jump further (shoes)
+	- Fly for a short duration (wings)
+    - Sprint (bungee jumping)
+    - Grab to things (Hook)
+    - Walk Upwards (Stair)
+    - Telephone (teleport to a friend)
+    - Sticky Note (teleport back to it)
+    - Binoculars (play any game from anywhere)
+
+<video controls loop autoplay muted style="width: 100%;">
+    <source type="video/webm" src="/assets/vid/games/minigame/jump.webm">
+</video>
+
+Main World Blocks:
+
+    - Ice block (slippery) + direction change block
+    - Breakable block (need hammer to break)
+    - Door (need key to open)
+    - Trigger Block (open door)
+
+
+Minigames:
+
+- TicTacToe: Play 1v1 TicTacToe.
+- Chess: Play 1v1 Chess.
+- Hangman: Play hangman with up to 2-99 people.
+- Word Match: Play word match with up to 2-99 people.
+- Memory Card Game: Play 1v1 memory card game.
+- GoFish: Play GoFish against 2-5 people.
