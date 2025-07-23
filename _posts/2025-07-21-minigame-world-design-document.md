@@ -51,21 +51,21 @@ The world map will contain collectables that will be in areas that are hard to r
 
 There will be several powerups which can be earned that give power to the player while on the world map:
 
-    - Jump further (shoes)
-	- Fly for a short duration (wings)
-    - Sprint (bungee jumping)
-    - Grab to things (Hook)
-    - Walk Upwards (Stair)
-    - Telephone (teleport to a friend)
-    - Sticky Note (teleport back to it)
-    - Binoculars (play any game from anywhere)
+- Jump further (shoes)
+- Fly for a short duration (wings)
+- Sprint (bungee jumping)
+- Grab to things (Hook)
+- Walk Upwards (Stair)
+- Telephone (teleport to a friend)
+- Sticky Note (teleport back to it)
+- Binoculars (play any game from anywhere)
 
 Throughout the world, there will be different tiles that form the world:
 
-    - Ice block (slippery) + direction change block
-    - Breakable block (need hammer to break)
-    - Door (need key to open)
-    - Trigger Block (open door)
+- Ice block (slippery) + direction change block
+- Breakable block (need hammer to break)
+- Door (need key to open)
+- Trigger Block (open door)
 
 ## Marketing
 

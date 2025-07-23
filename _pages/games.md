@@ -17,14 +17,14 @@ permalink: /games/
 
 Main World Powerups:
 
-    - Jump further (shoes)
-	- Fly for a short duration (wings)
-    - Sprint (bungee jumping)
-    - Grab to things (Hook)
-    - Walk Upwards (Stair)
-    - Telephone (teleport to a friend)
-    - Sticky Note (teleport back to it)
-    - Binoculars (play any game from anywhere)
+- Jump further (shoes)
+- Fly for a short duration (wings)
+- Sprint (bungee jumping)
+- Grab to things (Hook)
+- Walk Upwards (Stair)
+- Telephone (teleport to a friend)
+- Sticky Note (teleport back to it)
+- Binoculars (play any game from anywhere)
 
 <video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/vid/games/minigame/jump.webm">
@@ -32,10 +32,10 @@ Main World Powerups:
 
 Main World Blocks:
 
-    - Ice block (slippery) + direction change block
-    - Breakable block (need hammer to break)
-    - Door (need key to open)
-    - Trigger Block (open door)
+- Ice block (slippery) + direction change block
+- Breakable block (need hammer to break)
+- Door (need key to open)
+- Trigger Block (open door)
 
 
 Minigames:
