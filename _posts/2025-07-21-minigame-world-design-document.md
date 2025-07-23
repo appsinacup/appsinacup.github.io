@@ -21,23 +21,23 @@ The player will be able to customize his character, clothes and special items. A
 
 There will be different regions, such as a cold region, where there will be classical games.
 
-The heart of the game are the minigames. In each minigame players select an avatar and when players are ready the game starts. Each game has 3 rounds, each round players earned points doubling.
+The heart of the game are the minigames. In each minigame players select an avatar and when players are ready the game starts. Each game has 3 rounds.
 
 The game will be massively multiplayer online with up to 100 players visible on screen at a time.
 
 ## Plot and Setting
 
-The game is set in an amusement park world with 3 main zones:
+The world is set in an amusement park with 3 main zones:
 
-*Classical Games Zone*: This zone will be the ice zone, and it will contain games frozen in time.
+*Classical Games Zone*: This zone will be the **ice zone**, and it will contain games frozen in time.
 - TicTacToe: Play 1v1 TicTacToe.
 - Chess: Play 1v1 Chess.
 
-*Word Games Zone*: This zone will be the nature zone,
+*Word Games Zone*: This zone will be the **fire zone**, containing quick and unforgiving games.
 - Hangman: Play hangman with up to 2-99 people.
 - Word Match: Play word match with up to 2-99 people.
 
-*Card Games Zone*: This zone will be the sand zone, and it will contain slow paced games, same as how long it takes for sand to form.
+*Card Games Zone*: This zone will be the **sand zone**, and it will contain slow paced games, same as how long it takes for sand to form.
 - Memory Card Game: Play 1v1 memory card game.
 - GoFish: Play GoFish against 2-5 people.
 
