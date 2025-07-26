@@ -11,6 +11,7 @@ Tools for the Godot Engine from development to infrastructure and release.
 1. [Godot SoftBody2D](#godot-softbody2d)
 2. [Godot Rapier Physics](#2-godot-rapier-physics)
 3. [Shared Menus](#3-shared-menus)
+4. [GDExtension To Module](#4-gdextension-to-module)
 
 [Infrastructure](#infrastructure)
 
@@ -51,6 +52,12 @@ Shared menus used in games.
 - [GitHub Repo](https://github.com/appsinacup/addon_shared_menus)
 
 ![menus](https://raw.githubusercontent.com/appsinacup/addon_shared_menus/main/docs/shared_menus.gif)
+
+### 4. GDExtension To Module
+
+Documentation on how to port GDExtension's to Modules. Useful if you want to reduce size of the exported game (especially useful for web).
+
+- [GitHub Repo](https://github.com/appsinacup/documentation_gdextension_to_module)
 
 ### 4. Tiny Lobby Client
 
