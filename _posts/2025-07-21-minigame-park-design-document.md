@@ -1,17 +1,17 @@
 ---
 layout: post
 author: dragos
-title: Minigame World - Design Document
+title: Minigame Park - Design Document
 tag: game
 ---
 
-![minigame world logo](/assets/img/minigame/minigame_world_logo.png)
+![minigame park logo](/assets/img/minigame/minigame_world_logo.png)
 
-*Minigame World* is a social massively multiplayer world with *minigames*, playable on Web, Desktop and Mobile (Discord, Steam, Itch). The style is watercolor, and you walk and play minigames (chess, word match, hangman, etc.) with focus on customization and socializing.
+*Minigame Park* is a social massively multiplayer world with *minigames*, playable on Web, Desktop and Mobile (Discord, Steam, Itch). The style is watercolor, and you walk and play minigames (chess, word match, hangman, etc.) with focus on customization and socializing.
 
 ## Overview
 
-*Minigame World* is an online world where players select a character and customizes it, can play minigames with other people while earning highscores and getting new world items.
+*Minigame Park* is an online world where players select a character and customizes it, can play minigames with other people while earning highscores and getting new world items.
 
 The world is isometric, movement with mouse, keyboard or touch. The character can play minigames by entering an attraction/ride with tickets and joining a game with other people.
 
