@@ -11,7 +11,7 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Apps In A Cup # author name
   bio: >- # tell to the world
-    Indie Games and Tools made with the Godot Engine.
+    Indie Games and Tools in Godot. Plus Watercolor Art.
   username: appsinacup # general username
   twitter: appsinacup # twitter username
   email: contact@appsinacup.com # email adress
