@@ -81,7 +81,7 @@ The client that connects to the Tiny Client Websocket Server.
 
 ![lobby](https://github.com/appsinacup/tiny_lobby/raw/main/docs/example.gif)
 
-Multiplayer C++ Lobby Server with login for create / join / find lobbies.. It starts a websocket server and has backend scripting in Luau and AngelScript.
+Multiplayer C++ Lobby Server with login for create / join / find lobbies.. It starts a websocket server and has backend scripting in Luau.
 
 ## Release
 

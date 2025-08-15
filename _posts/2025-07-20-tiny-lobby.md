@@ -8,29 +8,16 @@ tag: server
 <image controls autoplay muted style="width: 100%;" src="https://github.com/appsinacup/tiny_lobby/raw/main/docs/example.gif">
 </image>
 
-Multiplayer C++ Lobby Server with login for create / join / find lobbies.. It starts a websocket server and has backend scripting in Luau and AngelScript. Check it on [GitHub](https://github.com/appsinacup/tiny_lobby).
+Multiplayer C++ Game Server with Lobby Management and Lua scripting. It starts a websocket server and has backend scripting in Luau. Check it on [GitHub](https://github.com/appsinacup/tiny_lobby).
 
-## How to use it
+## Server - How to use it
 
-Download the `tiny_lobby` binary for your OS and, create a `games.ini` file with the following near the binary:
-
-```sh
-[12345678-1234-1234-1234-1234567890123]
-lobby_control=lua
-folder=my_folder
-```
-
-For `12345678-1234-1234-1234-1234567890123` put any guid that is unique. For `lobby_control` select either `lua` or `angelscript`.
-
-Then, create a folder with the folder name you specified inside `scripts`. Inside it put either a `main.lua` file or a `main.as` file (depending on if you selected `lua` or `angelscript`).
-
-The structure should looks like this:
+Download the `tiny_lobby` binary for your OS and run create the following folders and files:
 
 ```sh
-tiny_lobby
-games.ini
+tiny_lobby # Binary you downloaded
 scripts/
-    my_folder/
+    my_game/
         main.lua
 ```
 
@@ -54,9 +41,26 @@ Now, run the `tiny_lobby` binary. You should see the following output:
 ```sh
 Starting webserver without SSL
 Listening on port 8080
-Loading game from world with id 12345678-1234-1234-1234-1234567890123
+Loading game from world with id my_game
 ```
 
 Now the server is up and the `echo` function can be called.
 
 Next, check out the [Documentation](https://github.com/appsinacup/documentation_lobby).
+
+## Godot - How to connect it
+
+Download the [Tiny Lobby Client](https://godotengine.org/asset-library/asset/4200) for Godot. Create a node of type `ScriptedLobbyClient` and set the `game_d` property to the game folder you created above.
+
+Then, create and run the following script:
+
+```py
+class_name Lobby
+extends ScriptedLobbyClient
+
+func _ready():
+  await connect_to_server().finished
+  await create_lobby("lobby_name").finished
+  var result = await lobby_call("echo", ["test"]).finished
+  print(result.get_result())
+```
