@@ -15,18 +15,28 @@ permalink: /games/
 
 - [Design Document](https://appsinacup.com/minigame-park-design-document/)
 - [Itchio](https://appsinacup.itch.io/world)
-- []
 
-### Minigames:
+### Minigames
 
-- TicTacToe: Play 1v1 TicTacToe.
-- Chess: Play 1v1 Chess.
-- Hangman: Play hangman with up to 2-99 people.
-- Word Match: Play word match with up to 2-99 people.
-- Memory Card Game: Play 1v1 memory card game.
-- GoFish: Play GoFish against 2-5 people.
+Throughout the world, you will encounter places where you can play games with other people, such as:
+
+- TicTacToe: Play 1v1.
+- Connect Four: Play 1v1.
+- Chess: Play 1v1.
+- Checkers: Play 1v1.
+- Hangman: Play with up to 2-99 people.
+- Word Match: Play with up to 2-99 people.
+- Word Search: Play with up to 2-99 people.
+- Rock, Paper, Scissors: Play 1v1.
+- Brick Break: Play with up to 2-99 people.
+- Snake: Play with up to 2-99 people.
+- Rummy: Play up to 2-4 people.
+- GoFish: Play up to 2-5 people.
+- Memory Card: Play 1v1.
 
 ### World Powerups
+
+You will gain items from the games and they will offer certain powerups:
 
 - Jump further (shoes)
 - Fly for a short duration (wings)
@@ -37,13 +47,6 @@ permalink: /games/
 - Sticky Note (teleport back to it)
 - Binoculars (play any game from anywhere)
 
-<video controls loop autoplay muted style="width: 100%;">
-    <source type="video/webm" src="/assets/vid/games/minigame/jump.webm">
-</video>
+### Leaderboards
 
-### World Blocks:
-
-- Ice block (slippery) + direction change block
-- Breakable block (need hammer to break)
-- Door (need key to open)
-- Trigger Block (open door)
+After winning, you will enter the leaderboards. The more you compete, the higher you will go.
