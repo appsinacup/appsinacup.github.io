@@ -78,7 +78,7 @@ The game will be marketed on twitter / discord / reddit / youtube. It will launc
 
 ## Development
 
-The initial world map and some example minigames should be done in 3-6 months, and additional minigames can be added after.
+The initial world map and some example minigames should be done in 3-6 months, and additional minigames can be added after. The game development started on 21 July.
 
 Example pitch from diablo:
 

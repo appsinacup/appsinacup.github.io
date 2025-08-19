@@ -11,14 +11,14 @@ permalink: /games/
 
 ![minigame park logo](/assets/img/minigame/minigame_world_logo.png)
 
-*Minigame Park* is a social massively multiplayer world with *minigames*, playable on Web, Desktop and Mobile (Discord, Steam, Itch). The style is watercolor, and you walk and play minigames (chess, word match, hangman, etc.) with focus on customization and socializing.
+**Minigame Park** is a social massively multiplayer world with **minigames**, playable on Web, Desktop and Mobile (Discord, Steam, Itch). The style is watercolor, and you walk and play minigames (chess, word match, hangman, etc.) with focus on customization and socializing.
 
 - [Design Document](https://appsinacup.com/minigame-park-design-document/)
 - [Itchio](https://appsinacup.itch.io/world)
 
 ### Minigames
 
-Throughout the world, you will encounter places where you can play games with other people, such as:
+Throughout the world, you will encounter places where you can play **minigames** with other people, such as:
 
 - TicTacToe: Play 1v1.
 - Connect Four: Play 1v1.
@@ -36,7 +36,7 @@ Throughout the world, you will encounter places where you can play games with ot
 
 ### World Powerups
 
-You will gain items from the games and they will offer certain powerups:
+You will gain items from the games and they will offer certain **powerups**:
 
 - Jump further (shoes)
 - Fly for a short duration (wings)
@@ -50,3 +50,18 @@ You will gain items from the games and they will offer certain powerups:
 ### Leaderboards
 
 After winning, you will enter the leaderboards. The more you compete, the higher you will go.
+
+### Roadmap
+
+The game development started on 21st July.
+
+#### 1. Month from 21st July -> 21st August
+
+- Integrated [tiny_lobby](https://appsinacup.com/tiny-lobby/) for multiplayer.
+- Started using [gonuts 4.5.beta](https://appsinacup.com/gonuts-4-5-beta/) custom Godot Engine build.
+- Added movement throught the map.
+- Added build steps for desktop, mobile and web.
+- Added deployment steps for itchio, iOS App Store, mac App Store and Play Store. (not yet released)
+- Added and tested tictactoe game.
+- Started development on hangman.
+- Started development on chess.

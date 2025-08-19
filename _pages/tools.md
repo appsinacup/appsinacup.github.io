@@ -12,6 +12,8 @@ Tools for the Godot Engine from development to infrastructure and release.
 2. [Godot Rapier Physics](#2-godot-rapier-physics)
 3. [Shared Menus](#3-shared-menus)
 4. [GDExtension To Module](#4-gdextension-to-module)
+5. [Tiny Lobby Client](#4-tiny-lobby-client)
+6. [Gonuts](#5-gonuts)
 
 [Infrastructure](#infrastructure)
 
@@ -59,7 +61,7 @@ Documentation on how to port GDExtension's to Modules. Useful if you want to red
 
 - [GitHub Repo](https://github.com/appsinacup/documentation_gdextension_to_module)
 
-### 4. Tiny Lobby Client
+### 5. Tiny Lobby Client
 
 - [GitHub](https://github.com/appsinacup/addon_tiny_lobby_client)
 - [Server](https://github.com/appsinacup/tiny_lobby)
@@ -67,6 +69,15 @@ Documentation on how to port GDExtension's to Modules. Useful if you want to red
 ![lobby](https://github.com/appsinacup/tiny_lobby/raw/main/docs/example.gif)
 
 The client that connects to the Tiny Client Websocket Server.
+
+### 6. Gonuts
+
+- [GitHub](https://github.com/appsinacup/gonuts)
+- [4.5.beta Article](https://appsinacup.com/gonuts-4-5-beta/)
+
+![gonuts log](/assets/img/gonuts/gonuts_128.png)
+
+Custom build of Godot 4.5 preconfigured with additional platforms and plugins.
 
 ## Infrastructure
 
