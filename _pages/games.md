@@ -7,14 +7,15 @@ permalink: /games/
 <!-- [Attributes by Finsweet] Auto Video -->
 <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>
 
-## MiniGame Park
+## 1. Minigame Park
 
 ![minigame park logo](/assets/img/minigame/minigame_world_logo.png)
 
 *Minigame Park* is a social massively multiplayer world with *minigames*, playable on Web, Desktop and Mobile (Discord, Steam, Itch). The style is watercolor, and you walk and play minigames (chess, word match, hangman, etc.) with focus on customization and socializing.
 
 - [Design Document](https://appsinacup.com/minigame-park-design-document/)
-- [ItchIo Page](https://appsinacup.itch.io/world)
+- [Itchio](https://appsinacup.itch.io/world)
+- []
 
 ### Minigames:
 

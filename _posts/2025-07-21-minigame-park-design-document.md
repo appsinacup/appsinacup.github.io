@@ -31,25 +31,30 @@ In case of game ever going out in 10-20 years, a copy of the server and instruct
 
 The world is set in an amusement park with 3 main zones:
 
-*Classical Games Zone*: This zone will be the **ice zone**, and it will contain games frozen in time.
-- TicTacToe: Play 1v1 TicTacToe.
-- Chess: Play 1v1 Chess.
+*Classical Games Zone*: This zone will be the **ice zone**, and it will contain games frozen in time. These games will be played 1 versus 1.
+- TicTacToe: Play 3 rounds.
+- Connect Four: Play 3 rounds.
+- Chess: Play 1 round.
+- Checkers: Play 1 round.
 
-*Word Games Zone*: This zone will be the **fire zone**, containing quick and unforgiving games.
-- Hangman: Play hangman with up to 2-99 people.
-- Word Match: Play word match with up to 2-99 people.
+*Word Games Zone*: This zone will be the **library zone**, containing books and shelves. These games will be played from 2 to 99 players.
+- Word Guess: Hangman.
+- Word Match: Match words in one language with words in another language.
+- Word Search: Search words through a box of words.
+
+*Arcade Games Zone*: This zone will be the **arcade zone**, with arcade machines and lights.
+- Rock, Paper, Scissors: Play 3 rounds. This will be 1 versus 1.
+- Brick Break: Breakout game. This will be from 2 to 99 players.
+- Brick Break: Snake game. This will be from 2 to 99 players.
 
 *Card Games Zone*: This zone will be the **sand zone**, and it will contain slow paced games, same as how long it takes for sand to form.
-- Memory Card Game: Play 1v1 memory card game.
-- GoFish: Play GoFish against 2-5 people.
-
-![theme](/assets/img/minigame/theme.png)
+- Rummy: This will be played from 2-4 people.
+- GoFish: This will be played from 2-5 people.
+- Memory Card: Play 1v1 memory card game.
 
 ## Gameplay
 
 The world map will contain collectables that will be in areas that are harder to reach. When entering a new game zone, there will be a sliding menu from right to left where you can select to join a game.
-
-![game_menu](/assets/img/minigame/game_menu.png)
 
 There will be several powerups which can be earned that give special abilities to the player while traveling on the world map:
 
