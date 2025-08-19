@@ -7,19 +7,19 @@ tag: game
 
 ![minigame park logo](/assets/img/minigame/minigame_world_logo.png)
 
-*Minigame Park* is a social massively multiplayer world with *minigames*, playable on Web, Desktop and Mobile (Discord, Steam, Itch). The style is watercolor, and you walk and play minigames (chess, word match, hangman, etc.) with focus on customization and socializing.
+**Minigame Park** is a social massively multiplayer world with **minigames**, playable on Web, Desktop and Mobile (Discord, Steam, Itch). The style is watercolor, and you walk and play minigames (chess, word match, hangman, etc.) with focus on customization and socializing.
 
 ## Overview
 
-*Minigame Park* is an online world where players select a character and customizes it, can play minigames with other people while earning highscores and getting new world items.
+**Minigame Park** is an online world where players select a character and customizes it, can play minigames with other people while earning highscores and getting new world items.
 
 The world is isometric, movement with mouse, keyboard or touch. The character can play minigames by entering an attraction/ride with tickets and joining a game with other people.
 
-The player will be able to customize his character, clothes and special items. As he plays more, he will also gain special items by either winning a lot of times or winning against a number of players or gaining a specific score in a game. This will also unlock special modes of games.
+The player will be able to **customize** his character, clothes and special items. As he plays more, he will also gain special items by either winning a lot of times or winning against a number of players or gaining a specific score in a game. This will also unlock special modes of games.
 
-There will be different regions, such as a cold region, where there will be classical games.
+There will be different **regions**, such as a cold region, where there will be classical games.
 
-The heart of the game are the minigames. In each minigame players select an avatar and when players are ready the game starts. Each game has 3 rounds.
+The heart of the game are the **minigames**. In each minigame players select an avatar and when players are ready the game starts. Each game has 3 rounds.
 
 The game will be massively multiplayer online with up to 100 players visible on screen at a time.
 
@@ -29,32 +29,32 @@ In case of game ever going out in 10-20 years, a copy of the server and instruct
 
 The world is set in an amusement park with 3 main zones:
 
-*Classical Games Zone*: This zone will be the **ice zone**, and it will contain games frozen in time. These games will be played 1 versus 1.
+**Classical Games Zone**: This zone will be the ice zone, and it will contain games frozen in time. These games will be played 1 versus 1.
 - TicTacToe: Play 3 rounds.
 - Connect Four: Play 3 rounds.
 - Chess: Play 1 round.
 - Checkers: Play 1 round.
 
-*Word Games Zone*: This zone will be the **library zone**, containing books and shelves. These games will be played from 2 to 99 players.
+**Word Games Zone**: This zone will be the library zone, containing books and shelves. These games will be played from 2 to 99 players.
 - Word Guess: Hangman.
 - Word Match: Match words in one language with words in another language.
 - Word Search: Search words through a box of words.
 
-*Arcade Games Zone*: This zone will be the **arcade zone**, with arcade machines and lights.
+**Arcade Games Zone**: This zone will be the arcade zone, with arcade machines and lights.
 - Rock, Paper, Scissors: Play 3 rounds. This will be 1 versus 1.
 - Brick Break: Breakout game. This will be from 2 to 99 players.
 - Brick Break: Snake game. This will be from 2 to 99 players.
 
-*Card Games Zone*: This zone will be the **sand zone**, and it will contain slow paced games, same as how long it takes for sand to form.
+**Card Games Zone**: This zone will be the sand zone, and it will contain slow paced games, same as how long it takes for sand to form.
 - Rummy: This will be played from 2-4 people.
 - GoFish: This will be played from 2-5 people.
 - Memory Card: Play 1v1 memory card game.
 
 ## Gameplay
 
-The world map will contain collectables that will be in areas that are harder to reach. When entering a new game zone, there will be a sliding menu from right to left where you can select to join a game.
+The world map will contain **collectables** that will be in areas that are harder to reach. When entering a new game zone, there will be a sliding menu from right to left where you can select to join a game.
 
-There will be several powerups which can be earned that give special abilities to the player while traveling on the world map:
+There will be several **powerups** which can be earned that give special abilities to the player while traveling on the world map:
 
 - Jump further (shoes)
 - Fly for a short duration (wings)
@@ -65,7 +65,7 @@ There will be several powerups which can be earned that give special abilities t
 - Sticky Note (teleport back to it)
 - Binoculars (play any game from anywhere)
 
-Throughout the world, there will be different tiles that in the world:
+Throughout the world, there will be different **tiles** that in the world:
 
 - Ice block (slippery) + direction change block
 - Breakable block (need hammer to break)
