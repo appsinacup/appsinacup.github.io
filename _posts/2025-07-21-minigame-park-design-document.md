@@ -15,8 +15,6 @@ tag: game
 
 The world is isometric, movement with mouse, keyboard or touch. The character can play minigames by entering an attraction/ride with tickets and joining a game with other people.
 
-![player](/assets/img/minigame/avatar.png)
-
 The player will be able to customize his character, clothes and special items. As he plays more, he will also gain special items by either winning a lot of times or winning against a number of players or gaining a specific score in a game. This will also unlock special modes of games.
 
 There will be different regions, such as a cold region, where there will be classical games.
@@ -66,10 +64,6 @@ There will be several powerups which can be earned that give special abilities t
 - Telephone (teleport to a friend)
 - Sticky Note (teleport back to it)
 - Binoculars (play any game from anywhere)
-
-<video controls loop autoplay muted style="width: 100%;">
-    <source type="video/webm" src="/assets/vid/games/minigame/jump.webm">
-</video>
 
 Throughout the world, there will be different tiles that in the world:
 
