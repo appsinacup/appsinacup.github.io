@@ -9,7 +9,7 @@ permalink: /progress/
 <section class="progress-content">
   <div class="book-1" id="book-1">
     <div class="page book__page book__page__1 book__cover book__cover--front" style="--page-index: 1;">
-      <div class="page__half page__half--front"><span class="title-holder"><span class="title"><b>MINIGAME PARK</b><span class="year"><br/>Jul 2025</span></span></span>
+      <div class="page__half page__half--front"><span class="title-holder"><span class="title"><b>MINIGAME PARK</b><span class="year"><br/>Aug 2025</span></span></span>
       </div>
       <div class="page__half page__half--back">
         <div class="book__insert"></div>
