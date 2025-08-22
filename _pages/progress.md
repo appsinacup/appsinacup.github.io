@@ -8,7 +8,6 @@ permalink: /progress/
 <link rel="stylesheet" href="/assets/css/pages_style.css"/>
 <section class="progress-content">
   <div class="book-1" id="book-1">
-    <div class="book__spine"></div>
     <div class="page book__page book__page__1 book__cover book__cover--front" style="--page-index: 1;">
       <div class="page__half page__half--front"><span class="title-holder"><span class="title"><b>MINIGAME PARK</b><span class="year"><br/>Jul 2025</span></span></span>
       </div>

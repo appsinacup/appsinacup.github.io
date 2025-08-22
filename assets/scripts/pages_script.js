@@ -40,13 +40,13 @@ function createPages(pages, bookPrefix, book, startIndex = 1) {
     let pageNumber2 = i * 2 + startIndex + 1
     pageNumberElement1.innerText = pageNumber1
     if (pageNumber1 == 1) {
-    pageNumberElement1.innerHTML = "#" + pageNumber1 + " Overview"
+    pageNumberElement1.innerHTML = "#" + pageNumber1
     } else {
-    pageNumberElement1.innerHTML = "#" + pageNumber1 + " In Game"
+    pageNumberElement1.innerHTML = "#" + pageNumber1
     }
     pageNumberElement1.classList.add("page-number-right")
     pageNumberElement2.innerText = pageNumber2
-    pageNumberElement2.innerHTML = "#" + pageNumber2 + " Design"
+    pageNumberElement2.innerHTML = "#" + pageNumber2
     pageNumberElement2.classList.add("page-number-left")
     page1.appendChild(pageNumberElement1)
     const page2 = document.createElement("div")
@@ -147,6 +147,18 @@ function createBook(year, pages, startIndex, onComplete, endPos) {
     const page = PAGES[index];
     state.isFlipping = true;
     state.currentDir = 'next';
+    
+    // Simple fix: push back cover behind during first flip
+    if (index === 0) {
+      const backCover = PAGES[pageCount];
+      //set(backCover, { z: -2, x: 0 });
+    }else
+    // Simple fix during last flip: ensure back cover is above all others
+    if (index === pageCount) {
+      const backCover = PAGES[pageCount];
+      set(backCover, { z: 2 });
+    }
+    
     state.currentTween = to(page, {
       rotateY: `-=${180 - index * 0.3}`,
       ease: 'circle',
@@ -156,6 +168,14 @@ function createBook(year, pages, startIndex, onComplete, endPos) {
         state.isFlipping = false;
         state.currentTween = null;
         state.currentDir = null;
+        
+        const backCover = PAGES[pageCount];
+        if (index === pageCount) {
+          //set(backCover, { z: 2, x: 10 });
+        } else {
+          set(backCover, { z: 0, x: 0 });
+        }
+        
         showFlipIndicator('Flip ➡');
         if (state.queueNext > 0) { state.queueNext--; flipNext(); return; }
         if (state.queuePrev > 0) { state.queuePrev--; flipPrev(); return; }
@@ -205,7 +225,7 @@ function createBook(year, pages, startIndex, onComplete, endPos) {
   }
 }
 let firstBook = null
-const book1 = createBook(1, 8, 1, () => {}, "translate(-190%, -50%) scale(0.5)")
+const book1 = createBook(1, 9, 1, () => {}, "translate(-190%, -50%) scale(0.5)")
 firstBook = book1
 firstBook.startAnimation();
 
