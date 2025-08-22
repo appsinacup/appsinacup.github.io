@@ -239,8 +239,18 @@ function handleGlobalClick(e) {
     if (firstBook && firstBook.flipNext) firstBook.flipNext();
   }
 }
-window.addEventListener('click', handleGlobalClick, { passive: true });
-window.addEventListener('touchstart', handleGlobalClick, { passive: true });
+
+// Attach events to the book container only, not the whole window
+const bookContainer = document.querySelector('.book-1');
+if (bookContainer) {
+  if ('ontouchstart' in window) {
+    // Touch device - use touchstart only
+    bookContainer.addEventListener('touchstart', handleGlobalClick, { passive: true });
+  } else {
+    // Non-touch device - use click only
+    bookContainer.addEventListener('click', handleGlobalClick, { passive: true });
+  }
+}
 
 // Keyboard support: ArrowLeft = previous, ArrowRight = next
 window.addEventListener('keydown', (e) => {
