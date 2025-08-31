@@ -8,9 +8,7 @@ tag: engine
 <!-- [Attributes by Finsweet] Auto Video -->
 <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>
 
-<video controls loop autoplay muted style="width: 100%;">
-    <source type="video/webm" src="/assets/vid/vscode/vscode.gif">
-</video>
+<img controls loop autoplay muted style="width: 100%;" src="/assets/vid/vscode/vscode.gif"/>
 
 ## Overview
 
