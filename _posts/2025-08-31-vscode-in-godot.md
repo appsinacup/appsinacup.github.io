@@ -17,12 +17,22 @@ This is a proof of concept of embedding the VSCode text editor in the Godot Engi
 Features:
 - Authenticate
 - Edit Code
+- Terminal
 - Change Color themes
 - Plugins
 - Copilot
 - etc.
 
 Basically everything the regular editor would.
+
+## Implementation
+
+For implementation, the Visual Studio Code Editor is actually a webview rendering the page `https://vscode.dev`. When the Engine starts, it runs the command: `code tunnel`. Then, the vscode web version connects to that.
+
+This is done by using:
+- a modified version of [doceazedo/godot_wry](https://github.com/doceazedo/godot_wry) for the webview
+- a modified version of [markeel/gdterm](https://github.com/markeel/gdterm) for terminal handling
+- a custom written module that creates and handles the vscode webpage.
 
 ## Notes
 
