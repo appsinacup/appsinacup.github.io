@@ -8,6 +8,13 @@ permalink: /engine/
 
 **Gonuts** is a custom build of Godot 4.5 with additional **platforms** and **tools**.
 
+## Releases
+
+- [Gonuts 4.5.beta](https://github.com/appsinacup/action_godot_builder/releases/tag/gonuts-4.5.beta_): Normal build with all features
+- Gonuts 4.5.beta - 3D Disabled Flavour: Building
+
+Tags will be reused and updated.
+
 ## Features
 
 - **Steam**: fork of GodotSteam. Integrate your game with Steam directly.
@@ -21,13 +28,6 @@ permalink: /engine/
 - **Embedded VSCode**: using [appsinacup/godot_vscode_ide](https://github.com/appsinacup/godot_vscode_ide)
 
 ![vscode](/assets/img/gonuts/vscode.png)
-
-## Releases
-
-- [Gonuts 4.5.beta](https://github.com/appsinacup/action_godot_builder/releases/tag/gonuts-4.5.beta_): Normal build with all features
-- Gonuts 4.5.beta - 3D Disabled Flavour: Building
-
-Tags will be reused and updated.
 
 ## Notes
 
