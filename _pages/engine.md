@@ -6,10 +6,6 @@ permalink: /engine/
 
 ![gonuts logo](/assets/img/gonuts/gonuts_128.png)
 
-
-
-## Overview
-
 **Gonuts** is a custom build of Godot 4.5 with additional **platforms** and **tools**.
 
 ## Features
@@ -18,13 +14,13 @@ permalink: /engine/
 - **Discord Embedded App**: Support for discord embedded apps.
 - **Terminal**: using [appsinacup/gdterm](https://github.com/appsinacup/gdterm) - fork of gdterm. Adds a Terminal tab:
 
-![terminal tab](./assets/img/gonuts/terminal_tab.png)
+![terminal tab](/assets/img/gonuts/terminal_tab.png)
 
 - **tiny_lobby**: Multiplayer server client using [appsinacup/tiny_lobby](https://github.com/appsinacup/tiny_lobby).
 - **Webview**: using [appsinacup/godot_wry](https://github.com/appsinacup/godot_wry) - fork of godot_wry that makes it module.
 - **Embedded VSCode**: using [appsinacup/godot_vscode_ide](https://github.com/appsinacup/godot_vscode_ide)
 
-![vscode](./assets/img/gonuts/vscode.png)
+![vscode](/assets/img/gonuts/vscode.png)
 
 ## Releases
 

@@ -81,11 +81,11 @@ Custom build of Godot 4.5 preconfigured with additional platforms and plugins.
 
 - Terminal Tab:
 
-![terminal tab](./assets/img/gonuts/terminal_tab.png)
+![terminal tab](/assets/img/gonuts/terminal_tab.png)
 
 - VSCode IDE:
 
-![vscode](./assets/img/gonuts/vscode.png)
+![vscode](/assets/img/gonuts/vscode.png)
 
 ## Infrastructure
 
