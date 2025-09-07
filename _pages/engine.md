@@ -11,7 +11,7 @@ permalink: /engine/
 ## Releases
 
 - [Gonuts 4.5.beta](https://github.com/appsinacup/action_godot_builder/releases/tag/gonuts-4.5.beta_): Normal build with all features
-- Gonuts 4.5.beta - 3D Disabled Flavour: Building
+- Gonuts 4.5.beta - 3D Disabled Flavour: Building...
 
 Tags will be reused and updated.
 
