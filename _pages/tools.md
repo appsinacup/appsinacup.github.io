@@ -73,9 +73,9 @@ The client that connects to the Tiny Client Websocket Server.
 ### 6. Gonuts
 
 - [GitHub](https://github.com/appsinacup/gonuts)
-- [4.5.beta Article](https://appsinacup.com/gonuts-4-5-beta/)
+- [Website](https://appsinacup.com/engine/)
 
-![gonuts log](/assets/img/gonuts/gonuts_128.png)
+![gonuts icon](/assets/img/gonuts/gonuts_128.png)
 
 Custom build of Godot 4.5 preconfigured with additional platforms and plugins.
 
