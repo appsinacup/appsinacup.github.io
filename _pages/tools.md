@@ -12,8 +12,8 @@ Tools for the Godot Engine from development to infrastructure and release.
 2. [Godot Rapier Physics](#2-godot-rapier-physics)
 3. [Shared Menus](#3-shared-menus)
 4. [GDExtension To Module](#4-gdextension-to-module)
-5. [Tiny Lobby Client](#4-tiny-lobby-client)
-6. [Gonuts](#5-gonuts)
+5. [Tiny Lobby Client](#5-tiny-lobby-client)
+6. [Gonuts](#6-gonuts)
 
 [Infrastructure](#infrastructure)
 
