@@ -25,6 +25,8 @@ Features:
 
 Basically everything the regular editor would.
 
+How to get it? Right now, it will be built into [Gonuts](https://appsinacup.com/engine/), the custom Godot editor with extra features. In future, it will also be a separate GDExtension.
+
 ## Implementation
 
 For implementation, the Visual Studio Code Editor is actually a webview rendering the page `https://vscode.dev`. When the Engine starts, it runs the command: `code tunnel`. Then, the vscode web version connects to that.
