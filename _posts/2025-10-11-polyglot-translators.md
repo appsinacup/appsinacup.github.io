@@ -8,7 +8,7 @@ tag: game
 <!-- [Attributes by Finsweet] Auto Video -->
 <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>
 
-We are looking for help from people interested to translate words for our upcoming game, **Polyglot Pirates**, a language learning game about pirates traveling the seas.
+We are looking for help from people interested to translate words for our upcoming game, **Polyglot Pirates**, a language learning game about pirates traveling the seas in echance for **Name Credits**.
 
 1. [Translations](#2-translations)
     - [Words](#words)
@@ -51,6 +51,7 @@ All of the public data as well as the words will be located in the [Polyglot Dic
 The words will come from [wiktionary.en](https://www.wiktionary.org), the free Dictionary.
 
 We take about 1000 basic words to form a basic dictionary, and take translations from Wiktionary (some of the translations are bad and need to be removed):
+
 | Code | Language | Link |
 |------|-----------|------|
 | ar | Arabic | [words_ar.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_ar.csv) |
