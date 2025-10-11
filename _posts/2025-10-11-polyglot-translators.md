@@ -20,7 +20,29 @@ We are looking for help from people interested to translate words for our upcomi
 
 # 1. Translations
 
-For start, we will focus on few languages of the 30 that there will be in total. As well as a total of 1000 easy to use words.
+For start, we will focus on few languages:
+- Spanish, German, French, Russian, Chinese, Romanian.
+
+Out of the 30 that there will be in total:
+```
+"ar","bg","cs","da","de","el","es","fi","fr","hu","id","it","ja","ko",
+"nl","no","nn","nb","pl","pt","ro","ru","sv","th","tr","uk","vi","zh",
+"cmn","yue","wuu","nan","hak"
+```
+
+As well as a total of 1000 easy to use words (eg.):
+```csv
+about,adv
+above,adv
+action,noun
+activity,noun
+actor,noun
+actress,noun
+...
+```
+
+If you want to help, join our [Discord](https://discord.com/invite/56dMud8HYn), select the roles according to the languages you speak, and contribute to the Polyglot Dictionaries. 
+
 
 All of the public data as well as the words will be located in the [Polyglot Dictionaries](https://github.com/appsinacup/polyglot-dictionaries), a free and open source repository you can contribute to.
 
@@ -28,12 +50,42 @@ All of the public data as well as the words will be located in the [Polyglot Dic
 
 The words will come from [wiktionary.en](https://www.wiktionary.org), the free Dictionary.
 
-Our process of translation will work like this:
-- download `wiktionary.en`
-- use our initial list of words, [words_1000_en.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/words_1000_en.csv)
-- get only the translation for every word from `wiktionary.en`.
-- go through every translation with more than 1 sense (you will help here) and chose the **best** one.
-
+We take about 1000 basic words to form a basic dictionary, and take translations from Wiktionary (some of the translations are bad and need to be removed):
+| Code | Language | Link |
+|------|-----------|------|
+| ar | Arabic | [words_ar.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_ar.csv) |
+| bg | Bulgarian | [words_bg.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_bg.csv) |
+| cs | Czech | [words_cs.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_cs.csv) |
+| da | Danish | [words_da.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_da.csv) |
+| de | German | [words_de.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_de.csv) |
+| el | Greek | [words_el.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_el.csv) |
+| es | Spanish | [words_es.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_es.csv) |
+| fi | Finnish | [words_fi.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_fi.csv) |
+| fr | French | [words_fr.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_fr.csv) |
+| hu | Hungarian | [words_hu.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_hu.csv) |
+| id | Indonesian | [words_id.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_id.csv) |
+| it | Italian | [words_it.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_it.csv) |
+| ja | Japanese | [words_ja.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_ja.csv) |
+| ko | Korean | [words_ko.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_ko.csv) |
+| nl | Dutch | [words_nl.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_nl.csv) |
+| no | Norwegian (generic) | [words_no.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_no.csv) |
+| nn | Norwegian Nynorsk | [words_nn.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_nn.csv) |
+| nb | Norwegian Bokmål | [words_nb.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_nb.csv) |
+| pl | Polish | [words_pl.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_pl.csv) |
+| pt | Portuguese | [words_pt.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_pt.csv) |
+| ro | Romanian | [words_ro.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_ro.csv) |
+| ru | Russian | [words_ru.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_ru.csv) |
+| sv | Swedish | [words_sv.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_sv.csv) |
+| th | Thai | [words_th.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_th.csv) |
+| tr | Turkish | [words_tr.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_tr.csv) |
+| uk | Ukrainian | [words_uk.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_uk.csv) |
+| vi | Vietnamese | [words_vi.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_vi.csv) |
+| zh | Chinese (generic) | [words_zh.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_zh.csv) |
+| cmn | Chinese (Mandarin) | [words_cmn.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_cmn.csv) |
+| yue | Chinese (Cantonese) | [words_yue.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_yue.csv) |
+| wuu | Chinese (Wu) | [words_wuu.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_wuu.csv) |
+| nan | Chinese (Min Nan / Hokkien) | [words_nan.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_nan.csv) |
+| hak | Chinese (Hakka) | [words_hak.csv](https://github.com/appsinacup/polyglot-dictionaries/blob/main/1000_words/words_hak.csv) |
 
 # 2. Gameplay
 
