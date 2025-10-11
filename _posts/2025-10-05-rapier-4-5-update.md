@@ -2,7 +2,7 @@
 layout: post
 author: dragos
 title: Godot Rapier update to Godot 4.5
-tag: engine
+tag: rapier
 ---
 
 <image controls autoplay muted style="width: 100%;" src="/assets/img/rapier-2d/banner.jpg">

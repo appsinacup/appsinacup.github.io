@@ -7,7 +7,7 @@ tag: game
 <!-- [Attributes by Finsweet] Auto Video -->
 <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>
 
-Polyglot (person who knows several languages) is a mobile and web language learning game about a pirate who wants to master all the languages. Match words to have the player move or attack in the game. The game also supports multiplayer co-op mode.
+Polyglot (person who knows several languages) Pirates is a mobile and web language learning game about a pirate who wants to master all the languages. Match words to have the player move or attack in the game. The game also supports multiplayer co-op mode.
 
 ## Select Language
 
