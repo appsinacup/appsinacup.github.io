@@ -69,6 +69,13 @@ In case there are multiple translations, the same original word in english will 
 |-|-|-|-|
 |actor|noun|actor|person who performs in a theatrical play or film — see also actress|
 
+In case there are multiple translations that are correct, then both should be kept:
+
+|word|part_of_speech|english_word|sense|
+|-|-|-|-|
+|adresare|noun|address|act of addressing oneself to a person or group|
+|adresă|noun|address|description of the location of a property; direction for correspondence|
+
 Rules to use when removing words:
 - Only keep one gender.
 - Only keep the main sense. (In case there are 2 senses or more, you can keep them only if the translation from english -> translated_language and translated_language -> english hold true)
