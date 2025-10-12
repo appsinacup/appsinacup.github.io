@@ -8,7 +8,7 @@ tag: game
 <!-- [Attributes by Finsweet] Auto Video -->
 <script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>
 
-We are looking for help from people interested to translate words for our upcoming game, **Polyglot Pirates**, a language learning game about pirates traveling the seas in echance for **Name Credits**.
+We are looking for help from people interested to translate words for our upcoming game, **Polyglot Pirates**, a language learning game about pirates traveling the seas in exchance for **Name Credits**.
 
 1. [Translations](#2-translations)
     - [Words](#words)
@@ -31,18 +31,47 @@ Out of the 30 that there will be in total:
 ```
 
 As well as a total of 1000 easy to use words (eg.):
-```csv
-about,adv
-above,adv
-action,noun
-activity,noun
-actor,noun
-actress,noun
-...
-```
+
+|about|adv|
+|-|-|
+|above|adv|
+|action|noun|
+|activity|noun|
+|actor|noun|
+|actress|noun|
 
 If you want to help, join our [Discord](https://discord.com/invite/56dMud8HYn), select the roles according to the languages you speak, and contribute to the Polyglot Dictionaries. 
 
+The `words_lang.csv` file (where lang will the be language you know) contains translations from english. There are 1000 english words translated. Example of translations:
+
+|word|part_of_speech|english_word|sense|
+|-|-|-|-|
+|vineri|noun|Friday|day of the week|
+|luni|noun|Monday|day of the week|
+|sâmbătă|noun|Saturday|day of the week|
+
+The ask is to go through the translations and make sure they are correct. Some words in english will be translated to multiple words in the selected language and some will be wrong. Remove those rows. Example:
+
+|word|part_of_speech|english_word|sense|
+|-|-|-|-|
+|actor|noun|actor|person who performs in a theatrical play or film — see also actress|
+|actriță|noun|actor|person who performs in a theatrical play or film — see also actress|
+|făcător|noun|actor|one who acts; a doer|
+|făcătoare|noun|actor|one who acts; a doer|
+|participant|noun|actor|one who takes part in a situation|
+|participantă|noun|actor|one who takes part in a situation|
+
+The first column is the word translated. The second column is the part of speech. The third column is the original word from english. The forth is the sense.
+
+In case there are multiple translations, the same original word in english will appear in the third column. Eg. in the above translations for actor (in Romanian) only the first one is correct:
+
+|word|part_of_speech|english_word|sense|
+|-|-|-|-|
+|actor|noun|actor|person who performs in a theatrical play or film — see also actress|
+
+Rules to use when removing words:
+- Only keep one gender.
+- Only keep the main sense. (In case there are 2 senses or more, you can keep them only if the translation from english -> translated_language and translated_language -> english hold true)
 
 All of the public data as well as the words will be located in the [Polyglot Dictionaries](https://github.com/appsinacup/polyglot-dictionaries), a free and open source repository you can contribute to.
 
