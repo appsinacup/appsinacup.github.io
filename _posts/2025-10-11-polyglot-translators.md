@@ -77,8 +77,9 @@ In case there are multiple translations that are the main sense, then both shoul
 |adresă|noun|address|description of the location of a property; direction for correspondence|
 
 Rules to use when removing words:
-- Only keep one gender.
+- Only keep one gender (masculine when present).
 - Only keep the main sense. (In case there are 2 senses or more, you can keep them only if the translation from english -> translated_language and translated_language -> english hold true)
+- Only keep newer words, remove archaic or old fashioned words.
 
 All of the public data as well as the words will be located in the [Polyglot Dictionaries](https://github.com/appsinacup/polyglot-dictionaries), a free and open source repository you can contribute to.
 
