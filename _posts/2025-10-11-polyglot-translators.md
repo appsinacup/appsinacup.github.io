@@ -63,13 +63,13 @@ The ask is to go through the translations and make sure they are correct. Some w
 
 The first column is the word translated. The second column is the part of speech. The third column is the original word from english. The forth is the sense.
 
-In case there are multiple translations, the same original word in english will appear in the third column. Eg. in the above translations for actor (in Romanian) only the first one is correct:
+In case there are multiple translations, the same original word in english will appear in the third column. Eg. in the above translations for actor (in Romanian) only the main sense will be taken into consideration:
 
 |word|part_of_speech|english_word|sense|
 |-|-|-|-|
 |actor|noun|actor|person who performs in a theatrical play or film — see also actress|
 
-In case there are multiple translations that are correct, then both should be kept:
+In case there are multiple translations that are the main sense, then both should be kept:
 
 |word|part_of_speech|english_word|sense|
 |-|-|-|-|
