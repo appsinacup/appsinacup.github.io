@@ -12,6 +12,8 @@ Apple Sign In functionality for iOS and macOS in Godot:
 - [Github](https://github.com/appsinacup/godot-apple-login)
 - [Godot Asset Library](https://godotengine.org/asset-library/asset/4544)
 
+# Install
+
 In order to use it, install it from Asset Lib by searching for Godot Apple Sign In:
 
 ![search](/assets/img/apple-sign-in/search.png)
