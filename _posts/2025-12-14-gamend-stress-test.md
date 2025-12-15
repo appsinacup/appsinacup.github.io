@@ -43,7 +43,7 @@ About the 1000 hard limit a bit, this limit ensures some of the 5000 flows will 
 
 ## Database Timeout Errors
 
-Now that the crashes were out of the way, I got to a 77% success rate on the test, which means only that many calls succeeded, rest failed (5xx errors):
+Now that the crashes were out of the way, I got to a **77% success rate** on the test, which means only that many calls succeeded, rest failed (5xx errors). The requests were also low, at **1500 requests per second**:
 
 ![failures](/assets/img/gamend_stress/failures.png)
 
@@ -54,7 +54,7 @@ For context, as I try to minimise costs, I use **SQLite** (I only pay less than 
 
 ## Caching and next steps
 
-Next, I added in memory caching (with option to later add multi level caching with local + distributed) by integrating [Nebulex](https://github.com/elixir-nebulex/nebulex).
+Next, I added **in memory caching** (with option to later add multi level caching with local + distributed) by integrating [Nebulex](https://github.com/elixir-nebulex/nebulex).
 
 I ran again the stress test, but this time for 10 minutes, to test for reliability.
 
