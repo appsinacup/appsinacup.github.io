@@ -62,10 +62,9 @@ I ran again the stress test, but this time for 10 minutes, to test for reliabili
 
 Now it was able to handle **4000 users concurrently**, utilizing all CPU and almost all RAM.
 
-
 ![cpu](/assets/img/gamend_stress/cpu_final.png)
 
-The number of requests served was at **3K per second**, however as users grew, so did the HTTP response time, with a p99 of 15s:
+The number of requests served was at about **3000 per second**, however as users grew, so did the HTTP response time, with a p99 of 15s:
 
 ![http](/assets/img/gamend_stress/http_final.png)
 
