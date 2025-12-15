@@ -39,7 +39,7 @@ So I increased to:
 
 Now even at 1000 calls simultaneous (hardcoded limit for the app), it wasn't dying with Out of Memory anymore.
 
-About the 1000 hard limit a bit, this limit ensures some of the 5000 flows will error, but this is by design, as I wanted to test this case also.
+About the 1000 hard limit a bit, this limit ensures some of the 5000 flows will error, but this is by design, as I wanted to test this case also. I will increase it later (at caching part).
 
 ## Database Timeout Errors
 
