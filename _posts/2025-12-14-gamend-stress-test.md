@@ -9,7 +9,7 @@ tag: game
 
 Ok so I started to **stress test** my game server, [Gamend](https://github.com/appsinacup/game_server) (Using k6, a great server stress tool). I wanted to see where are the limits of the system right now.
 
-I set the stress test to execute for 1 minute 5000 **flows**, where each flow creates a new account (**db write**) and then reads 10 times the self user data (**db read**), sleeping 1s in between.
+I set the stress test to execute for 15 minutes 5000 **flows**, where each flow creates a new account (**db write**) and then reads 10 times the self user data (**db read**), sleeping 1s in between.
 
 Throughout this whole test I saw what the current **bottlenecks** are and what I need to improve.
 
