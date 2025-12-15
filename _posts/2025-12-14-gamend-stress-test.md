@@ -67,6 +67,6 @@ The number of requests served was at **3K per second**, however as users grew, s
 
 ![http](/assets/img/gamend_stress/http_final.png)
 
-The total successful requests is at 99.98%, with a total of **2 mil requests over 10 min** and 99.98% sucess rate.
+The total successful requests is at 99.98%, with a total of **2 mil requests over 10 min**,
 
 ![overview](/assets/img/gamend_stress/results_final.png)
