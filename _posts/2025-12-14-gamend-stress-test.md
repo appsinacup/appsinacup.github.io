@@ -7,7 +7,9 @@ tag: game
 
 ![banner](/assets/img/gamend/banner.png)
 
-Ok so I started to **stress test** my game server, [Gamend](https://github.com/appsinacup/game_server) (Using k6, a great server stress tool). I wanted to see where are the limits of the system right now.
+Ok so I started to **stress test** my game server, [Gamend](https://github.com/appsinacup/game_server) (Using k6, a great server stress tool). I wanted to see where are the limits of the system right now. In this article I will talk how I solved the issues with:
+- **Out of Memory**
+- **Database Timeouts**
 
 I set the stress test to execute for 15 minutes 5000 **flows**, where each flow creates a new account (**db write**) and then reads 10 times the self user data (**db read**), sleeping 1s in between.
 
