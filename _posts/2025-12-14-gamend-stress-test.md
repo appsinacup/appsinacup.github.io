@@ -54,9 +54,19 @@ For context, as I try to minimise costs, I use **SQLite** (I only pay less than 
 
 ## Caching and next steps
 
-The next step to better the results will be to add a caching layer between the app and the database. For this, there are 2 options, **in memory** one and **distributed** one:
+Next, I added in memory caching (with option to later add multi level caching with local + distributed) by integrating [Nebulex](https://github.com/elixir-nebulex/nebulex).
 
-- **Cachex**: Library that works in memory for cache.
-- **Redis**: Distributed cache system, slower than in memory but works great at scale.
+I ran again the stress test, but this time for 10 minutes, to test for reliability.
 
-I will probably start with the in memory one, and then either do cache invalidation, or move to Redis.
+Now it was able to handle **4000 users concurrently**, utilizing all CPU and almost all RAM.
+
+
+![cpu](/assets/img/gamend_stress/cpu_final.png)
+
+The number of requests served was at **3K per second**, however as users grew, so did the HTTP response time, with a p99 of 15s:
+
+![http](/assets/img/gamend_stress/http_final.png)
+
+The total successful requests is at 99.98%, with a total of **2 mil requests over 10 min** and 99.98% sucess rate.
+
+![overview](/assets/img/gamend_stress/results_final.png)
