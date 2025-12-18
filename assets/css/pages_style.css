@@ -87,7 +87,6 @@ h1 {
   border-radius: 0 5% 5% 0;
   transform: translate(0, -50%);
   height: 94%;
-  width: 94%;
   z-index: calc(((var(--page-count) * 3 + 3) - var(--page-index)) * 3);
   transform-origin: 0% 50%;
   will-change: transform;
