@@ -53,9 +53,9 @@ function createPages(pages, bookPrefix, book, startIndex = 1) {
     page2.classList.add("page__half", "page__half--back")
 
     const page1Image = document.createElement("img")
-    // Prefer images under /assets/img/pages, fallback to /assets/img/pages/aug if missing
+    // Prefer images under /assets/img/pages, fallback to /assets/img/pages/2025 if missing
     const idx1 = i * 2 + startIndex;
-    page1Image.src = `/assets/img/pages/aug/${bookPrefix}-${idx1}.jpg`;
+    page1Image.src = `/assets/img/pages/2025/${bookPrefix}-${idx1}.jpg`;
     page1Image.loading = "lazy"
     page1Image.decoding = "async"
     page1Image.height = "1024"
@@ -64,7 +64,7 @@ function createPages(pages, bookPrefix, book, startIndex = 1) {
 
     const page2Image = document.createElement("img")
     const idx2 = i * 2 + startIndex + 1;
-    page2Image.src = `/assets/img/pages/aug/${bookPrefix}-${idx2}.jpg`;
+    page2Image.src = `/assets/img/pages/2025/${bookPrefix}-${idx2}.jpg`;
     page2Image.loading = "lazy"
     page1Image.decoding = "async"
     page1Image.height = "1024"
