@@ -19,5 +19,5 @@ permalink: /progress-2025/
   
   <script src="/assets/scripts/ScrollTrigger.min.js"></script>
   <script src="/assets/scripts/gsap-latest-beta.min.js"></script>
-  <script async src="/assets/scripts/pages_script.js"></script>
+  <script async src="/assets/scripts/pages_script_2025.js"></script>
 </section>
