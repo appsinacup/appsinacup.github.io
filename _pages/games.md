@@ -9,7 +9,7 @@ permalink: /games/
 
 ## 1. Polyglot Pirates
 
-![polyglot logo](/assets/img/minigame/minigame_world_logo.png)
+![polyglot logo](/assets/img/polyglot-pirates/icon_nobg.png)
 
 **Polyglot Pirates** is a pirate themed language learning game with in-game progression, unlockables, achievements, multiplayer games, leaderboards and tournaments, playable on Web, Desktop and Mobile (Discord, Steam, Itch, iOS, Android). The style is watercolor, and the goal is to go from island to island by winning language minigames.
 
