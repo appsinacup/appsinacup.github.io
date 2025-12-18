@@ -225,7 +225,7 @@ function createBook(year, pages, startIndex, onComplete, endPos) {
   }
 }
 let firstBook = null
-const book1 = createBook(1, 9, 1, () => {}, "translate(-190%, -50%) scale(0.5)")
+const book1 = createBook(1, 6, 1, () => {}, "translate(-190%, -50%) scale(0.5)")
 firstBook = book1
 firstBook.startAnimation();
 
