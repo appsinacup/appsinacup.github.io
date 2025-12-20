@@ -18,7 +18,7 @@ tag: game
 - 2.4 [Friends Page](#24-friends-page)
 - 2.5 [Dictionaries Page](#25-dictionaries-page)
 - 2.6 [Leaderboards Page](#26-leaderboards-page)
-- 2.7 [Ship Page]()
+- 2.7 [Ship Page](#27-ship-page)
 
 ## Bug Reporting
 
