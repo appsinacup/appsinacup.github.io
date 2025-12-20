@@ -73,3 +73,41 @@ The initial animation happens after First Time Page (or Login Page if First Time
 
 
 ![IntroAnimation](/assets/img/polyglot-pirates-testing/IntroAnimation.webm)
+
+# 2. Main Menu Flow
+
+After logging in and seeing the initial animation (or skipping it) you arrive to the main menu. In this flow, you are on the island and you can customise the player or game settings, as well as see various information (eg. leaderboards, dictionaries, friends, etc.)
+
+# 2.1 Island Page
+
+The Island page offers information about the player, the ship, and more submenus.
+
+## Validate Functionality
+
+- [ ] On landscape, the menus should be on the right (resize the window or rotate device)
+- [ ] On landscape, the menus should be on the bottom (resize the window or rotate device)
+- [ ] You should see the Menu Butons (Settings, Personalize, Friends, Dictionaries, Leaderboards) and Game Buttons (Start)
+
+|||
+-|-
+|![menu_right](/assets/img/polyglot-pirates-testing/menu_right.png)|![menu_bottom](/assets/img/polyglot-pirates-testing/menu_bottom.png)|
+
+# 2.2 Settings Page
+
+On the Settings page you can update game settings, such as language, sound, gameplay, account, as well as view community information.
+
+## Validate Functionality
+- [ ] When changing Language, the UI language should update. It should also persist between restarts.
+- [ ] When changing Target Language, the target language (in game) should update. It should also persist between restarts.
+- [ ] When changing Sound Effects Volume, the sound effects volume should update. It should also persist between restarts.
+- [ ] When changing Music Volume, the music volume should update. It should also persist between restarts.
+- [ ] When Disabling Audio, the music and sound effects should be muted. It should also persist between restarts.
+- [ ] When Show Next Word is active, in minigames you should see next word and current word. It should also persist between restarts.
+- [ ] When Skip Introduction is active, the intro animation will be skipped on game restarts. It should also persist between restarts.
+- [ ] When clicking on Feedback, you should be presented with a Feedback Form.
+- [ ] When clicking on Discord, a link to this Discord Community should open in the browser.
+- [ ] When clicking to Link/Unlink an account, you should be guided through the Login flow, and if successful the account will be linked, if not an error will be shown.
+- [ ] When clicking the Logout button, your session will be deleted, and the game will go back to Login Screen. All device settings done so far will also be deleted.
+- [ ] When clicking the Delete button, your account will be deleted, and the game will go back to Login Screen. All device settings done so far will also be deleted. All user settings from the server will also be deleted
+
+![SettingsScreen](/assets/img/polyglot-pirates-testing/SettingsScreen.png)
