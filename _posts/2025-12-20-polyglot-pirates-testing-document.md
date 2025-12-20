@@ -72,4 +72,4 @@ The initial animation happens after First Time Page (or Login Page if First Time
 - [ ] Can be skipped by going to Settings -> Skip Introduction
 
 
-![IntroAnimation](/assets/img/polyglot-pirates-testing/IntroAnimation.gif)
+![IntroAnimation](/assets/img/polyglot-pirates-testing/IntroAnimation.webm)

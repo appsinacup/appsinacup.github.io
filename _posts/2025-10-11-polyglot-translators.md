@@ -5,9 +5,6 @@ title: Polyglot Pirates Wanted
 tag: game
 ---
 
-<!-- [Attributes by Finsweet] Auto Video -->
-<script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>
-
 In exchange for **Name Credits** we are looking for help from people interested to translate words for our upcoming game, **Polyglot Pirates**, a language learning game about pirates traveling the seas.
 
 1. [Translations](#2-translations)

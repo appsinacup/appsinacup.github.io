@@ -5,9 +5,6 @@ title: Running VSCode in the Godot Engine
 tag: engine
 ---
 
-<!-- [Attributes by Finsweet] Auto Video -->
-<script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>
-
 <img controls loop autoplay muted style="width: 100%;" src="/assets/vid/vscode/vscode.gif"/>
 
 ## Overview

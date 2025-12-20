@@ -4,9 +4,6 @@ title: Games
 permalink: /games/
 ---
 
-<!-- [Attributes by Finsweet] Auto Video -->
-<script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-autovideo@1/autovideo.js"></script>
-
 ## 1. Polyglot Pirates
 
 ![polyglot logo](/assets/img/polyglot-pirates/icon_nobg.png)
