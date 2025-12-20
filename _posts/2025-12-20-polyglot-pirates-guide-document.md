@@ -146,6 +146,8 @@ In the Dictionaries Page you will be able to see the dictionaries and the progre
 |-|-|
 |![dictionaries_screen](/assets/img/polyglot-pirates-testing/dictionaries_screen.png)|![words_screen](/assets/img/polyglot-pirates-testing/words_screen.png)|
 
+Work in progress
+
 # 2.6 Leaderboards Page
 
 In the Leaderboards Page you will be able to see your current position in the leaderboards as well as others.
@@ -155,6 +157,8 @@ In the Leaderboards Page you will be able to see your current position in the le
 
 ![leaderboards](/assets/img/polyglot-pirates-testing/leaderboards.png)
 
+Work in progress
+
 # 2.7. Ship Page
 
 The Ship Page is a sort of get ready page before the game actually starts.
@@ -162,3 +166,5 @@ The Ship Page is a sort of get ready page before the game actually starts.
 <video controls loop autoplay muted style="height: 100vh">
     <source type="video/webm" src="/assets/img/polyglot-pirates-testing/ship.webm">
 </video>
+
+Work in progress
