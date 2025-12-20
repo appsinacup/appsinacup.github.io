@@ -70,8 +70,8 @@ After logging in and seeing the initial animation (or skipping it) you arrive to
 The Island page offers information about the player, the ship, and more submenus.
 
 - On landscape, the menus should be on the right (resize the window or rotate device)
-- On landscape, the menus should be on the bottom (resize the window or rotate device)
-- You should see the Menu Butons (Settings, Personalize, Friends, Dictionaries, Leaderboards) and Game Buttons (Start)
+- On portrait, the menus should be on the bottom (resize the window or rotate device)
+- You should see the Menu Buttons (Settings, Personalize, Friends, Dictionaries, Leaderboards) and Game Buttons (Start)
 
 |||
 -|-
@@ -125,11 +125,11 @@ On the Friends page you can view/accept/reject friends. This page has 3 tabs:
 
 ![request](/assets/img/polyglot-pirates-testing/request.png)
 
-## Received Tab
+## Sent Tab
 
-- Accept or decline friend requests.
+- View or revoke sent friend requests.
 
-![request](/assets/img/polyglot-pirates-testing/request.png)
+![request](/assets/img/polyglot-pirates-testing/sent.png)
 
 # 2.5 Dictionaries Page
 
@@ -152,14 +152,14 @@ Work in progress
 
 In the Leaderboards Page you will be able to see your current position in the leaderboards as well as others.
 
-- View your position
-- View others position
+- View your rank
+- View other players rank
 
 ![leaderboards](/assets/img/polyglot-pirates-testing/leaderboards.png)
 
 Work in progress
 
-# 2.7. Ship Page
+# 2.7 Ship Page
 
 The Ship Page is a sort of get ready page before the game actually starts.
 
