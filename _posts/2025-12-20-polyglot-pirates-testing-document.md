@@ -139,3 +139,18 @@ On the Friends page you can view/accept/reject friends. This page has 3 tabs:
 - [ ] Accept or decline friend requests.
 
 ![request](/assets/img/polyglot-pirates-testing/request.png)
+
+# 2.5 Dictionaries Page
+
+In the Dictionaries Page you will be able to see the dictionaries and the progress you have on them, as well as select a dictionary and view words inside it.
+
+## Dictionary Tab
+- [ ] View Dictionaries
+
+## Word Tab
+- [ ] View Words
+- [ ] Go back to Dictionaries Tab
+
+|||
+|-|-|
+|![dictionaries_screen](/assets/img/polyglot-pirates-testing/dictionaries_screen.png)|![words_screen](/assets/img/polyglot-pirates-testing/words_screen.png)|
