@@ -71,8 +71,9 @@ The initial animation happens after First Time Page (or Login Page if First Time
 - [ ] Can be sped up by holding mouse down
 - [ ] Can be skipped by going to Settings -> Skip Introduction
 
-
-![IntroAnimation](/assets/img/polyglot-pirates-testing/IntroAnimation.webm)
+<video controls loop autoplay muted style="width: 100%;">
+    <source type="video/webm" src="/assets/img/polyglot-pirates-testing/IntroAnimation.webm">
+</video>
 
 # 2. Main Menu Flow
 

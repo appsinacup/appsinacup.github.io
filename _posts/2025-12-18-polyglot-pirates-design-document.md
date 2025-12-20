@@ -17,7 +17,9 @@ tag: game
 
 During the night, sea creatures **steal your treasure**. You need to chase them and get it back.
 
-![IntroAnimation](/assets/img/polyglot-pirates-testing/IntroAnimation.webm)
+<video controls loop autoplay muted style="width: 100%;">
+    <source type="video/webm" src="/assets/img/polyglot-pirates-testing/IntroAnimation.webm">
+</video>
 
 The world is 2D, **movement** is done on water by ship. There are different **obstacles**, such as the sea creatures you chase, which you can shoot with the cannon.
 
