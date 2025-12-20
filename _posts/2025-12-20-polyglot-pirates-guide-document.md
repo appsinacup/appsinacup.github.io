@@ -1,31 +1,24 @@
 ---
 layout: post
 author: dragos
-title: Polyglot Pirates - Design Document
+title: Polyglot Pirates - Guide Document
 tag: game
 ---
 
 ![polyglot logo](/assets/img/polyglot-pirates/icon_nobg.png)
 
-If testing the app, test as many flows as possible, to validate they still work. When testing a specific version, you can keep track of testing progress by using the following:
-
-## Version <eg. 1.0.123>
-
 [1] Login Flow:
-- [1.1] Login Page: <test_results>
-- [1.2] First Time Page: <test_results>
+- [1.1] Login Page
+- [1.2] First Time Page
 
 [2] Main Menu Flow:
-- [2.1] Island Page: <test_results>
-- [2.2] Settings Page: <test_results>
-- [2.3] Profile Page: <test_results>
-- [2.4] Friends Page: <test_results>
-- [2.5] Dictionaries Page: <test_results>
-- [2.6] Leaderboards Page: <test_results>
-
-Notes:
-- Where it says test_results, put either **succeeded**, **bug** or **notes**.
-- If testing multiple times, you can disable or speed up initial animation.
+- [2.1] Island Page
+- [2.2] Settings Page
+- [2.3] Profile Page
+- [2.4] Friends Page
+- [2.5] Dictionaries Page
+- [2.6] Leaderboards Page
+- [2.7] Ship Page
 
 ## Bug Reporting
 
@@ -161,3 +154,7 @@ In the Leaderboards Page you will be able to see your current position in the le
 - [ ] View others position
 
 ![leaderboards](/assets/img/polyglot-pirates-testing/leaderboards.png)
+
+# 3. Ship Page
+
+The Ship Page is a sort of get ready page before the game actually starts.
