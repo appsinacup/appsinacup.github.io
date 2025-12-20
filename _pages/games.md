@@ -12,5 +12,5 @@ permalink: /games/
 
 - [Progress 2025](https://appsinacup.com/progress-2025/)
 - [Design Document](https://appsinacup.com/polyglot-pirates-design-document/)
-- [Testing Document](https://appsinacup.com/polyglot-pirates-testing-document/)
+- [Guide Document](https://appsinacup.com/polyglot-pirates-guide-document/)
 - [Roadmap](https://appsinacup.com/polyglot-pirates-roadmap/)

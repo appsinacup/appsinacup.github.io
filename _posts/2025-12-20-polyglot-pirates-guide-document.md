@@ -7,9 +7,7 @@ tag: game
 
 ![polyglot logo](/assets/img/polyglot-pirates/icon_nobg.png)
 
-# What to test
-
-When testing the app, test as many flows as possible, to validate they still work. When testing a specific version, you can keep track of testing progress by using the following:
+If testing the app, test as many flows as possible, to validate they still work. When testing a specific version, you can keep track of testing progress by using the following:
 
 ## Version <eg. 1.0.123>
 
@@ -154,3 +152,12 @@ In the Dictionaries Page you will be able to see the dictionaries and the progre
 |||
 |-|-|
 |![dictionaries_screen](/assets/img/polyglot-pirates-testing/dictionaries_screen.png)|![words_screen](/assets/img/polyglot-pirates-testing/words_screen.png)|
+
+# 2.6 Leaderboards Page
+
+In the Leaderboards Page you will be able to see your current position in the leaderboards as well as others.
+
+- [ ] View your position
+- [ ] View others position
+
+![leaderboards](/assets/img/polyglot-pirates-testing/leaderboards.png)
