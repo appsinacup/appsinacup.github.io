@@ -43,8 +43,6 @@ If you are already logged in, you can Logout by going to Settings -> Logout or D
 
 This page is only visible if you are not logged in. After you login, the login should be cached for at least 30 days.
 
-### Validate Functionality
-
 - [ ] Change the Language.
 - [ ] Login with Apple/Google/etc. (Depends on mobile) or continue as Guest (on web not available).
 
@@ -53,8 +51,6 @@ This page is only visible if you are not logged in. After you login, the login s
 # 1.2 First Time Page
 
 If you already configured your target language, this page will not show up anymore.
-
-## Validate Functionality
 
 - [ ] Configure your Name
 - [ ] Change the Language
@@ -67,11 +63,10 @@ If you already configured your target language, this page will not show up anymo
 
 The initial animation happens after First Time Page (or Login Page if First Time is skipped). It is skipped if the player is in a Game. If you want to replay the Initial Animation, Restart the game.
 
-## Validate Functionality
 - [ ] Can be sped up by holding mouse down
 - [ ] Can be skipped by going to Settings -> Skip Introduction
 
-<video controls loop autoplay muted style="width: 100%;">
+<video controls loop autoplay muted style="height: 100vh">
     <source type="video/webm" src="/assets/img/polyglot-pirates-testing/IntroAnimation.webm">
 </video>
 
@@ -82,8 +77,6 @@ After logging in and seeing the initial animation (or skipping it) you arrive to
 # 2.1 Island Page
 
 The Island page offers information about the player, the ship, and more submenus.
-
-## Validate Functionality
 
 - [ ] On landscape, the menus should be on the right (resize the window or rotate device)
 - [ ] On landscape, the menus should be on the bottom (resize the window or rotate device)
@@ -97,7 +90,6 @@ The Island page offers information about the player, the ship, and more submenus
 
 On the Settings page you can update game settings, such as language, sound, gameplay, account, as well as view community information.
 
-## Validate Functionality
 - [ ] When changing Language, the UI language should update. It should also persist between restarts.
 - [ ] When changing Target Language, the target language (in game) should update. It should also persist between restarts.
 - [ ] When changing Sound Effects Volume, the sound effects volume should update. It should also persist between restarts.
@@ -112,3 +104,38 @@ On the Settings page you can update game settings, such as language, sound, game
 - [ ] When clicking the Delete button, your account will be deleted, and the game will go back to Login Screen. All device settings done so far will also be deleted. All user settings from the server will also be deleted
 
 ![SettingsScreen](/assets/img/polyglot-pirates-testing/SettingsScreen.png)
+
+# 2.3 Profile Page
+
+On the Profile page you can personalize your character.
+
+- [ ] Choose a name
+- [ ] Choose a color. The color should update your character color
+- [ ] Choose a hat. The hat should update your character hat
+- [ ] Choose an accessory. The accessory should update your character accessory
+
+![profile_screen](/assets/img/polyglot-pirates-testing/profile_screen.png)
+
+# 2.4 Friends Page
+
+On the Friends page you can view/accept/reject friends. This page has 3 tabs:
+
+## Friends Tab
+
+- [ ] Search users by display name.
+- [ ] Send friend requests.
+- [ ] Remove existing friends.
+
+![friend](/assets/img/polyglot-pirates-testing/friend.png)
+
+## Received Tab
+
+- [ ] Accept or decline friend requests.
+
+![request](/assets/img/polyglot-pirates-testing/request.png)
+
+## Received Tab
+
+- [ ] Accept or decline friend requests.
+
+![request](/assets/img/polyglot-pirates-testing/request.png)
