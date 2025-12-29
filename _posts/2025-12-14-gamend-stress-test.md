@@ -1,7 +1,7 @@
 ---
 layout: post
 author: dragos
-title: Game Server Stress Test
+title: Gamend - Game Server Stress Test
 tag: game
 ---
 
