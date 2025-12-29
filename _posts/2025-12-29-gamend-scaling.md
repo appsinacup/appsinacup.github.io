@@ -11,7 +11,7 @@ Both the running instance of gamend, which can be found at [https://gamend.appsi
 
 ## Infrastructure
 
-When scaling, you need a Postgres database and Redis (or configure different caching, such as per node using Erlang Distribution setting):
+When scaling, the recommended is to use Postgres database and Redis cache:
 
 ```sh
 +------------------------------+
@@ -33,9 +33,10 @@ When scaling, you need a Postgres database and Redis (or configure different cac
 # Etc. to n instances
 ```
 
-## Tutorial
+## Tutorial (Docker Compose)
 
-To start it, clone the [gamend_starter](https://github.com/appsinacup/gamend_starter) repo and run:
+1. Clone the [gamend_starter](https://github.com/appsinacup/gamend_starter) repo
+2. Run the following:
 
 ```sh
 docker compose -f docker-compose.multi.yml up --scale app=2
@@ -52,6 +53,13 @@ This will start 2 instances of the `gamend` app, a Postgres database, Redis cach
   - app-2
 ```
 
+Now, go to the browser to [http://localhost:4000](http://localhost:4000), register with any email and then go to the dev mailbox, at [http://localhost:4000/dev/mailbox](http://localhost:4000/dev/mailbox) (Only enabled locally to test, in prod disable it). Accept the registration, then login with magic link. You should now have admin access (first registered user is admin).
+
+### Load Balancer
+
 The nginx load balancer will call into either `app-1` or `app-2`. The gamend server has a cache layer, which can be configured in different ways, but for this it's configured with Redis. The database of choice is Postgres here (for single deployment it can also use SQLite).
 
-Now, go to the browser to [http://localhost:4000](http://localhost:4000), register with any email and then go to the dev mailbox, at [http://localhost:4000/dev/mailbox](http://localhost:4000/dev/mailbox) (Only enabled locally to test, in prod disable it). Accept the registration, then login with magic link. You should now have admin access (first registered user is admin).
+### Multilevel Cache
+
+The app uses 2 level caching. First `local in memory`, and then `Redis` (over network). When something is written to the database or read, the cache is updated both locally and distributed. Read more about Multilevel cache here:
+- [Nebulex Multilevel Cache](https://hexdocs.pm/nebulex/3.0.0-rc.2/getting-started.html#multilevel-cache)
