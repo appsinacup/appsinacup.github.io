@@ -12,10 +12,8 @@ This tutorial will help you to deploy Gamend using [fly.io](https://fly.io). For
   ![cost](/assets/img/gamend_deploy/0-cost.png)
 
 ## Create an account
-
 - Create an account on [fly.io](https://fly.io).
 - Install locally [flyctl](https://fly.io/docs/flyctl/install/):
-
   ```sh
   # macOS
   brew install flyctl
@@ -28,9 +26,7 @@ This tutorial will help you to deploy Gamend using [fly.io](https://fly.io). For
 ## Configure
 
 - Clone/fork the [gamend_starter](https://github.com/appsinacup/gamend_starter) repo.
-
 - Run in the repo the following command:
-
   ```sh
   fly deploy
   ```
@@ -38,15 +34,10 @@ This tutorial will help you to deploy Gamend using [fly.io](https://fly.io). For
 ## Deploy
 
 - Select `y` on the re-use fly.io (first prompt), then press Enter on other questions:
-
   ![banner](/assets/img/gamend_deploy/1-launch.png)
-
 - That's it, at the end you will be given a URL you can visit to see the app:
-
   ![view](/assets/img/gamend_deploy/2-view.png)
-
 - Go to the URL and Register using Email (first account created will be Admin).
-
   ![web](/assets/img/gamend_deploy/3-web.png)
 
 ## Notes:
