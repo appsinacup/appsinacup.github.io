@@ -1,13 +1,15 @@
 ---
 layout: post
 author: dragos
-title: Gamend - Game Server Deploy using fly
+title: Gamend - Game Server Deploy
 tag: game
 ---
 
 ![banner](/assets/img/gamend/banner.png)
 
-This tutorial will help you to deploy Gamend using [fly.io](https://fly.io).
+This tutorial will help you to deploy Gamend using [fly.io](https://fly.io). For this we are using a shared instance that will cost about 5$ per month (shared-cpy-2x with 512MB):
+
+  ![cost](/assets/img/gamend_deploy/0-cost.png)
 
 1. Create an account on [fly.io](https://fly.io).
 2. Install locally [flyctl](https://fly.io/docs/flyctl/install/):
