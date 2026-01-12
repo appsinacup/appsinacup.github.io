@@ -13,7 +13,7 @@ The translations from the game are made as [MIT licensed](https://opensource.org
 
 The game will have **30 languages** manually translated by contributors: Arabic, Bulgarian, Czech, Danish, German, Greek, English, Spanish (Spain), Spanish (Latin America), Finnish, French, Hungarian, Indonesian, Italian, Japanese, Korean, Dutch, Norwegian, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Swedish, Thai, Turkish, Ukrainian, Vietnamese, Chinese (Simplified), Chinese (Traditional).
 
-The contributors will be given in exchange **name credits**.
+The contributors will be given in exchange **name credits**. Simply say in the write access request what name or pseudoname you want credited.
 
 Words are grouped in categories and subcategories, and contain part of speech, eg.:
 - People -> Body -> head (noun)
