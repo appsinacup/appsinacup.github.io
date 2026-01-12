@@ -35,6 +35,4 @@ Below are some visuals of our upcoming game:
     <source type="video/webm" src="/assets/img/polyglot-pirates-testing/word_match_v2.webm">
 </video>
 
-![dictionaries_screen](/assets/img/polyglot-pirates-testing/dictionaries_screen.png)
-
 And lastly, if you want to register for our upcoming alpha test, go here: [Polyglot Testers](https://docs.google.com/forms/d/e/1FAIpQLSdlQ8G2K8xzFseLxhx-rBCh65hYDMv_47sQssHWdpu5P7ELzA/viewform)
