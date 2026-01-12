@@ -1,7 +1,7 @@
 ---
 layout: post
 author: dragos
-title: Polyglot Pirates Translators Update
+title: Polyglot Pirates Translations
 tag: game
 ---
 
