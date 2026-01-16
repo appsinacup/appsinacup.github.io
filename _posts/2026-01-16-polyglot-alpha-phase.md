@@ -6,7 +6,7 @@ tag: game
 ---
 
 <video controls loop autoplay muted style="height: 60vh">
-    <source type="video/webm" src="/assets/img/polyglot-pirates-testing/IntroAnimation.webm">
+    <source type="video/webm" src="/assets/img/polyglot-pirates/polyglot.webm">
 </video>
 
 **Polyglot Pirates** will start the **Alpha Testing** phase on **1st of Feb**. It will be a language learning multiplayer co-op game about pirates looking for their lost treasure.
