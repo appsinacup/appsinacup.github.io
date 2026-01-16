@@ -1,13 +1,13 @@
 ---
 layout: post
 author: dragos
-title: Polyglot Pirates - Alpha Test starting 1st Feb
+title: Polyglot Pirates - Register for Alpha Test
 tag: game
 ---
 
 ![polyglot logo](/assets/img/polyglot-pirates-testing/banner.png)
 
-**Polyglot Pirates** will start the **Alpha Testing** phase on 1st of Feb. It will be a language learning multiplayer co-op game about pirates looking for their lost treasure.
+**Polyglot Pirates** will start the **Alpha Testing** phase on **1st of Feb**. It will be a language learning multiplayer co-op game about pirates looking for their lost treasure.
 
 - [Registration form](https://docs.google.com/forms/d/e/1FAIpQLSdlQ8G2K8xzFseLxhx-rBCh65hYDMv_47sQssHWdpu5P7ELzA/viewform): If you want to register for the upcoming alpha.
 
