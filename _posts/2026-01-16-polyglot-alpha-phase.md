@@ -11,7 +11,7 @@ tag: game
 
 - [Registration form](https://docs.google.com/forms/d/e/1FAIpQLSdlQ8G2K8xzFseLxhx-rBCh65hYDMv_47sQssHWdpu5P7ELzA/viewform): If you want to register for the upcoming alpha.
 
-<video controls loop autoplay muted style="height: 100vh">
+<video controls loop autoplay muted style="height: 60vh">
     <source type="video/webm" src="/assets/img/polyglot-pirates-testing/IntroAnimation.webm">
 </video>
 
