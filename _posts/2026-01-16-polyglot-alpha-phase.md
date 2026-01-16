@@ -15,7 +15,9 @@ tag: game
     <source type="video/webm" src="/assets/img/polyglot-pirates-testing/IntroAnimation.webm">
 </video>
 
-In the Alpha Version of the game we plan to have the following features:
+## Features
+
+In the **Alpha Version** of the game will have the following:
 
 - **Practice mode** lets you practice without the stress of the levels (without progression) and it will work offline also.
 - **Play together** by inviting friends in the same level.
@@ -24,8 +26,13 @@ In the Alpha Version of the game we plan to have the following features:
 - **Read the dictionary** grouped by categories and subcategories even when offline.
 - **Customize with accessories** the main player, that are unlocked by playing.
 - **5000 words per language** (still work in progress). Planned at release is to have 30 languages.
+
+## Links
+
 - [Dicord Community](https://discord.com/invite/56dMud8HYn)
 - [PolyglotPirates.com](https://polyglotpirates.com)
+
+## More Info
 
 The **translations** from the game are made available for free as [MIT licensed](https://opensource.org/license/mit) (free to re-use even commercially). To get them go to this [Google Drive Folder](https://drive.google.com/drive/folders/1ulGtw6FFfwaIiLEqEeULWtQr5mWCT93Q). The contributors will be given in exchange **name credits**. Simply say in the write access request what name or pseudoname you want credited.
 
