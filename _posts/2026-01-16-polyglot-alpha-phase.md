@@ -5,7 +5,7 @@ title: Polyglot Pirates - Register for Alpha Test
 tag: game
 ---
 
-<video controls loop autoplay muted style="width: 100;">
+<video controls loop autoplay muted style="width: 100%;">
     <source type="video/webm" src="/assets/img/polyglot-pirates/polyglot.webm">
 </video>
 
