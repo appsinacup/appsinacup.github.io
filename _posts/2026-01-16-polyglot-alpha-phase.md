@@ -32,7 +32,7 @@ In the **Alpha Version** of the game will have the following:
     <source type="video/webm" src="/assets/img/polyglot-pirates-testing/word_match_v2.webm">
 </video>
 
-Sometime in start of march, in the **Beta Version** there will be the following features:
+Sometime in march, in the **Beta Version**, there will be the following features:
 - **Play together** by inviting friends in the same level.
 - **5000 words per language** (still work in progress). Planned at release is to have 30 languages.
 
