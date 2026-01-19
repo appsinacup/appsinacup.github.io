@@ -9,7 +9,7 @@ tag: game
 
 **Polyglot Pirates** is an upcoming language learning game about pirates looking for their lost treasure.
 
-- [Dicord Community](https://discord.com/invite/56dMud8HYn)
+- [Discord Community](https://discord.com/invite/56dMud8HYn)
 - [PolyglotPirates.com](https://polyglotpirates.com)
 
 The translations from the game are made available for free as [MIT licensed](https://opensource.org/license/mit) (free to re-use even commercially). To get them go to this [Google Drive Folder](https://drive.google.com/drive/folders/1ulGtw6FFfwaIiLEqEeULWtQr5mWCT93Q).

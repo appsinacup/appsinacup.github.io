@@ -38,7 +38,7 @@ Sometime in march, in the **Beta Version**, there will be the following features
 
 ## Links
 
-- [Dicord Community](https://discord.com/invite/56dMud8HYn)
+- [Discord Community](https://discord.com/invite/56dMud8HYn)
 - [PolyglotPirates.com](https://polyglotpirates.com)
 
 ## More Info
