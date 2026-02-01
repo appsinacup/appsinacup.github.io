@@ -9,7 +9,14 @@ tag: game
     <source type="video/webm" src="/assets/img/polyglot-pirates/polyglot.webm">
 </video>
 
-Hi all, the Alpha Test will start today!
+Hi all, the Alpha Test will start today! First, you will need to complete the [Alpha Test Form](https://forms.gle/GpJ1rGwRWSsmnHcU9) (if you haven't already).
+
+Here's how to get started:
+- **iPhone**: You will need to go to the following [Test Flight URL](https://testflight.apple.com/join/dHRXJPG5).
+- **Android**: You will need to go to the following [Google Play URL](https://play.google.com/apps/internaltest/4701446401943780513).
+- **Web**: Go to [appsinacup.itch.io/world](https://appsinacup.itch.io/world).
+
+## What to test?
 
 In this version we will have:
 - **Practice mode**: Guess words without internet connection.
@@ -21,13 +28,6 @@ The following mini-games will be available:
 
 Fully **translated languages** available:
 - English, Romanian, Spanish, French, Chinese
-
-First you will need to complete the [Alpha Test Form](https://forms.gle/GpJ1rGwRWSsmnHcU9) (if you haven't already) so I can add your email address to the testers list (you will not be able to install it otherwise. It's a requirement from the App Store).
-
-You will be able to test on:
-- **iPhone**: You will need to go to the following [Test Flight URL](https://testflight.apple.com/join/dHRXJPG5).
-- **Android**: You will need to go to the following [Google Play URL](https://play.google.com/apps/internaltest/4701446401943780513).
-- **Web**: Go to [appsinacup.itch.io/world](https://appsinacup.itch.io/world).
 
 ## Known issues:
 
