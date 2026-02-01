@@ -34,7 +34,7 @@ Fully **translated languages** available:
 ## Known issues:
 
 - [Web Builds] On Safari there might be some issues when authenticating. Either use Chromium based browsers or Firefox for now.
-
+- [Overall] Some words repeat themselves.
 
 ## What will be next?
 
