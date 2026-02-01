@@ -17,6 +17,7 @@ Hi all, the Alpha Test starts today! **To participate, firstly** you will need t
 - **Web**: Go to [appsinacup.itch.io/world](https://appsinacup.itch.io/world).
 
 If you have questions, go on our [Discord](https://discord.com/invite/56dMud8HYn).
+After testing, fill in the following Questionaire.
 
 ## What to test?
 
@@ -33,7 +34,8 @@ Fully **translated languages** available:
 
 ## Known issues:
 
-- [Web Builds] On Safari there might be some issues when authenticating. Either use Chromium based browsers or Firefox for now.
+- [Web Builds] On Safari there might be some issues when authenticating. (Use for now Chromium based browsers or Firefox)
+- [Chinese] On screen Pinyin keyboard doesn't work. (Use for now the mobile keyboard instead)
 - [Overall] Some words repeat themselves.
 
 ## What will be next?
