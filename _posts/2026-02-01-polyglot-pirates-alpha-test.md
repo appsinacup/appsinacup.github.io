@@ -36,7 +36,6 @@ Fully **translated languages** available:
 
 - [Web Builds] On Safari there might be some issues when authenticating. (Use for now Chromium based browsers or Firefox)
 - [Chinese] On screen Pinyin keyboard doesn't work. (Use for now the mobile keyboard instead)
-- [Overall] Some words repeat themselves.
 
 ## What will be next?
 
