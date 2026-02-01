@@ -9,8 +9,6 @@ tag: game
     <source type="video/webm" src="/assets/img/polyglot-pirates/polyglot.webm">
 </video>
 
-## Upcoming Alpha Test (tomorrow-ish)
-
 Hi all, the Alpha Test will start today!
 
 In this version we will have:
