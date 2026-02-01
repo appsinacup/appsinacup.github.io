@@ -16,6 +16,8 @@ Then, depending on the platform you want to test on:
 - **Android**: You will need to go to the following [Google Play URL](https://play.google.com/apps/internaltest/4701446401943780513).
 - **Web**: Go to [appsinacup.itch.io/world](https://appsinacup.itch.io/world).
 
+If you have questions, go on our [Discord](https://discord.com/invite/56dMud8HYn).
+
 ## What to test?
 
 In this version we will have:
