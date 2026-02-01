@@ -9,9 +9,9 @@ tag: game
     <source type="video/webm" src="/assets/img/polyglot-pirates/polyglot.webm">
 </video>
 
-Hi all, the Alpha Test will start today! First, you will need to complete the [Alpha Test Form](https://forms.gle/GpJ1rGwRWSsmnHcU9) (if you haven't already).
+Hi all, the Alpha Test starts today! To participate, you will need to complete the [Alpha Test Form](https://forms.gle/GpJ1rGwRWSsmnHcU9) (if you haven't already).
 
-Here's how to get started:
+Then, depending on the platform you want to test on:
 - **iPhone**: You will need to go to the following [Test Flight URL](https://testflight.apple.com/join/dHRXJPG5).
 - **Android**: You will need to go to the following [Google Play URL](https://play.google.com/apps/internaltest/4701446401943780513).
 - **Web**: Go to [appsinacup.itch.io/world](https://appsinacup.itch.io/world).
