@@ -17,7 +17,7 @@ Hi all, the Alpha Test starts today! **To participate, firstly** you will need t
 - **Web**: Go to [appsinacup.itch.io/world](https://appsinacup.itch.io/world).
 
 If you have questions, go on our [Discord](https://discord.com/invite/56dMud8HYn).
-After testing, fill in the following Questionaire.
+After testing, fill in the following [Survey](https://forms.gle/y2mRsra8zWCPxq4W7).
 
 ## What to test?
 
