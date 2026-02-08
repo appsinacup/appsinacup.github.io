@@ -1,0 +1,22 @@
+---
+layout: post
+author: dragos
+title: Godot VSCode - Code inside the Godot Engine
+tag: engine
+---
+
+<img controls loop autoplay muted style="width: 100%;" src="/assets/vid/vscode/vscode.gif"/>
+
+<b>VSCode</b> running <i>inside</i> the Godot game engine.</i>
+
+The addon puts VSCode editor inside the Godot Engine as an addon through a webview.
+
+How to get it? Download it from [appsinacup/godot_vscode_ide](https://github.com/appsinacup/godot_vscode_ide).
+
+## Implementation
+
+For implementation, the Visual Studio Code Editor is actually a webview rendering the page `https://vscode.dev`. When the Engine starts, it runs the command: `code tunnel`. Then, the vscode web version connects to that.
+
+This is done by using:
+- a modified version of [doceazedo/godot_wry](https://github.com/doceazedo/godot_wry) for the webview
+- a custom written GDScript addon that creates and handles the vscode webpage.
