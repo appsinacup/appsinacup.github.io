@@ -9,8 +9,6 @@ tag: addon
 
 <b>VSCode</b> running <i>inside</i> the Godot game engine.upd
 
-The addon puts VSCode editor inside the Godot Engine as an addon through a webview.
-
 How to get it? Download it from [appsinacup/godot_vscode_ide](https://github.com/appsinacup/godot_vscode_ide).
 
 ## Implementation
