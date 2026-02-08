@@ -2,7 +2,7 @@
 layout: post
 author: dragos
 title: Godot VSCode - Code inside the Godot Engine
-tag: engine
+tag: addon
 ---
 
 <img controls loop autoplay muted style="width: 100%;" src="/assets/vid/vscode/vscode.gif"/>
