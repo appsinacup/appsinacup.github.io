@@ -7,7 +7,7 @@ tag: addon
 
 <img controls loop autoplay muted style="width: 100%;" src="/assets/vid/vscode/vscode.gif"/>
 
-<b>VSCode</b> running <i>inside</i> the Godot game engine.</i>
+<b>VSCode</b> running <i>inside</i> the Godot game engine.upd
 
 The addon puts VSCode editor inside the Godot Engine as an addon through a webview.
 
