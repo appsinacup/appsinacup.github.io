@@ -14,6 +14,10 @@
   url: /tools/
   external: false
 
+- title: Donate
+  url: https://github.com/sponsors/appsinacup
+  external: true
+
 - title: Discord
   url: https://discord.com/invite/56dMud8HYn
   external: true
