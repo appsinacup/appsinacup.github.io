@@ -22,7 +22,7 @@ tag: game
 
 ## Bug Reporting
 
-If on any of the flows you find either an edge case that is not yet treated or a bug, report it so it can be fixed (on our [Discord](https://discord.com/invite/56dMud8HYn) Page). Thanks in advance.
+If on any of the flows you find either an edge case that is not yet treated or a bug, report it so it can be fixed (on our [Discord](https://discord.com/invite/v649emcpAu) Page). Thanks in advance.
 
 # 1. Login Flow
 

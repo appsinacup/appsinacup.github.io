@@ -37,7 +37,7 @@ As well as a total of 1000 easy to use words (eg.):
 |actor|noun|
 |actress|noun|
 
-If you want to help, join our [Discord](https://discord.com/invite/56dMud8HYn), select the roles according to the languages you speak, and contribute to the Polyglot Dictionaries. 
+If you want to help, join our [Discord](https://discord.com/invite/v649emcpAu), select the roles according to the languages you speak, and contribute to the Polyglot Dictionaries. 
 
 The `words_lang.csv` file (where lang will the be language you know) contains translations from english. There are 1000 english words translated. Example of translations:
 
