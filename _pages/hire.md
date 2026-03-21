@@ -16,3 +16,7 @@ Need help with your Godot game, or with Godot Rapier, or with setting up your ga
 ## Get in Touch
 
 Reach out at **[contact@appsinacup.com](mailto:contact@appsinacup.com)** with a brief description of what you need help with, and I'll get back to you.
+
+## The Consultation
+
+The consultation will be an online call where you share screen and whatever else you have problems with, and I will help you and offer guidance. It can be on discord, google meet, teams, or anything else.
