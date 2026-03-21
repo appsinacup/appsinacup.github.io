@@ -18,6 +18,10 @@
   url: https://github.com/sponsors/appsinacup
   external: true
 
+- title: Consulting
+  url: /consulting/
+  external: false
+
 - title: Discord
   url: https://discord.com/invite/v649emcpAu
   external: true
