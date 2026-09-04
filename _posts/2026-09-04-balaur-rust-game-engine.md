@@ -33,7 +33,7 @@ Three things I kept hitting while fixing bugs in Godot:
 
 - **Determinism**. Rollback netcode, lockstep multiplayer, replays, reproducible bug reports. Same inputs have to give the same bits on every machine. Hard to add to an engine later.
 - **Fixing things myself**. In a big engine a fix waits on review, a merge and the next release. I wanted to fix a bug and ship with it the same day.
-- **Shipping small**. One executable, no sources, no compiler inside. On the web, Godot 4.7's export template is **38.8 MB** of wasm (10.1 MB gzip, 6.9 MB brotli) before the game's own data. Balaur's headless web build is **13.6 MB** (4.6 MB gzip, 3.1 MB brotli); with the renderer, my estimate is 4-5 MB brotli.
+- **Shipping small**. One executable, no sources, no compiler inside. On the web, Godot 4.7's export template is **38.8 MB** of wasm - 6.9 MB brotli, which is what a host actually serves - before the game's own data. Balaur's web template is **17 MB**, or **4.5 MB brotli**.
 
 So I am making my own. On top: a scene tree of named nodes with scripts, like in Godot. Underneath: every node is an ECS entity and every subsystem is a plugin. Only plugin authors see that layer.
 
